@@ -1,0 +1,108 @@
+name: CI-CD
+
+on:
+  pull_request:
+    branches: ["main"]
+  push:
+    branches: ["main"]
+
+env:
+  GCP_PROJECT_ID: ray-platform-v2
+  GCP_REGION: asia-south1 
+  GKE_CLUSTER_NAME: ray-gke-cluster-v2
+  ARTIFACT_REGISTRY_LOCATION: asia-south1
+  ARTIFACT_REGISTRY_REPOSITORY: ray-repo-v2
+  IMAGE_NAME: ray-pipeline-v2
+
+jobs:
+  terraform-plan:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.6.6
+
+      - name: Terraform Init
+        working-directory: infra/terraform
+        run: terraform init
+
+      - name: Terraform Fmt Check
+        working-directory: infra/terraform
+        run: terraform fmt -check
+
+      - name: Terraform Validate
+        working-directory: infra/terraform
+        run: terraform validate
+
+      - name: Terraform Plan
+        working-directory: infra/terraform
+        run: terraform plan -var="project_id=${GCP_PROJECT_ID}" -out=tfplan
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_ID_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+
+      - name: Set up gcloud
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ env.GCP_PROJECT_ID }}
+
+      - name: Install GKE auth plugin and Helm
+        run: |
+          gcloud components install gke-gcloud-auth-plugin --quiet
+          sudo snap install helm --classic || true
+
+      - name: Configure Docker auth for Artifact Registry
+        run: |
+          echo "Using registry: ${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev"
+          gcloud auth configure-docker ${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev --quiet
+
+      - name: Build and push Docker image
+        working-directory: app
+        run: |
+          IMAGE="${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev/${GCP_PROJECT_ID}/${ARTIFACT_REGISTRY_REPOSITORY}/${IMAGE_NAME}:${GITHUB_SHA}"
+          echo "Building image: ${IMAGE}"
+          docker build -t "${IMAGE}" .
+          docker push "${IMAGE}"
+          echo "IMAGE=${IMAGE}" >> "${GITHUB_ENV}"
+
+      - name: Get GKE credentials
+        run: |
+          gcloud container clusters get-credentials "${GKE_CLUSTER_NAME}" \
+            --region "${GCP_REGION}" \
+            --project "${GCP_PROJECT_ID}"
+
+      - name: Install or upgrade KubeRay operator
+        run: |
+          helm repo add kuberay https://ray-project.github.io/kuberay-helm/
+          helm repo update
+          helm upgrade --install kuberay-operator kuberay/kuberay-operator \
+            --namespace ray-system \
+            --create-namespace
+
+      - name: Apply Kubernetes base manifests
+        run: |
+          kubectl apply -f k8s/namespace-ray.yaml
+          kubectl apply -f k8s/serviceaccounts.yaml
+          kubectl apply -f k8s/secret-llm.yaml
+          kubectl apply -f k8s/networkpolicy.yaml
+
+      - name: Deploy RayJob with latest image
+        run: |
+          sed "s|REGION-docker.pkg.dev/YOUR_PROJECT_ID/ray-repo/ray-pipeline:latest|${IMAGE}|g" \
+            k8s/ray-job.yaml | kubectl apply -f -

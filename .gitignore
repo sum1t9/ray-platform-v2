@@ -1,0 +1,66 @@
+########################
+# Terraform (infra/terraform)
+########################
+
+# Local Terraform working dirs
+infra/terraform/.terraform/
+infra/terraform/.terraform.lock.hcl
+
+# State files (never commit)
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+
+# Crash logs
+infra/terraform/crash.log
+infra/terraform/crash.*.log
+
+# Variable files (may contain secrets)
+infra/terraform/*.tfvars
+infra/terraform/*.tfvars.json
+
+# Local override files
+infra/terraform/override.tf
+infra/terraform/override.tf.json
+infra/terraform/*_override.tf
+infra/terraform/*_override.tf.json
+
+########################
+# Python / Ray app (app/)
+########################
+
+app/__pycache__/
+app/*.py[cod]
+app/*.pyo
+
+# Virtualenvs if you ever create them in the repo
+.env
+.venv/
+venv/
+ENV/
+
+# Python build / dist artefacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+########################
+# Docker / local tooling
+########################
+
+# If you add local override compose files later
+docker-compose.override.yml
+
+########################
+# IDE / OS junk
+########################
+
+# VS Code settings
+.vscode/
+
+# JetBrains
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
