@@ -21,7 +21,7 @@ def ingest_data(source_name: str) -> pd.DataFrame:
     return df
 
 
-@ray.remote(num_gpus=0, resources={"entity_resolver": 1})
+@ray.remote(num_gpus=0)
 class EntityResolver:
     """Simulated LLM-based Entity Resolution actor."""
 
