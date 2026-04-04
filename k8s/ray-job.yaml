@@ -8,11 +8,23 @@ spec:
 
   runtimeEnvYAML: |
     env_vars:
-      SUPPLYCHAIN_DATA_S1_PATH: "gs://ray-platform-v2-ray2-data-bucket/supplychain.csv"
-      FINANCIAL_DATA_S2_PATH: "gs://ray-platform-v2-ray2-data-bucket/financial.csv"
+      SUPPLYCHAIN_DATA_S1_PATH: "gs://ray-platform-v2-ray2-data-bucket/data/SupplyChain_Data_S1.csv"
+      FINANCIAL_DATA_S2_PATH: "gs://ray-platform-v2-ray2-data-bucket/data/Financial_Data_S2.csv"
 
   shutdownAfterJobFinishes: true
   ttlSecondsAfterFinished: 300
+
+  submitterPodTemplate:
+    spec:
+      containers:
+        - name: ray-job-submitter
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "100Mi"
+            limits:
+              cpu: "200m"
+              memory: "200Mi"
 
   rayClusterSpec:
     rayVersion: "2.9.0"
@@ -20,7 +32,7 @@ spec:
       serviceType: ClusterIP
       rayStartParams:
         num-cpus: "1"
-        object-store-memory: "134217728"
+        object-store-memory: "100000000"
       template:
         spec:
           serviceAccountName: ray-head-sa-v2
@@ -28,7 +40,6 @@ spec:
             node-role: system
           containers:
             - name: ray-head
-              # PLACEHOLDER – CI will replace this with built image
               image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
               env:
                 - name: SUPPLYCHAIN_DATA_S1_PATH
@@ -40,10 +51,12 @@ spec:
                     secretKeyRef:
                       name: llm-api-secret-v2
                       key: LLM_API_KEY
+                - name: RAY_OBJECT_STORE_MEMORY
+                  value: "100000000"
               resources:
                 requests:
                   cpu: "200m"
-                  memory: "256Mi"
+                  memory: "200Mi"
                 limits:
                   cpu: "500m"
                   memory: "512Mi"
@@ -55,6 +68,7 @@ spec:
         maxReplicas: 5
         rayStartParams:
           num-cpus: "1"
+          object-store-memory: "100000000"
           resources: '"{\"entity_resolver\": 1}"'
         template:
           spec:
@@ -77,10 +91,12 @@ spec:
                       secretKeyRef:
                         name: llm-api-secret-v2
                         key: LLM_API_KEY
+                  - name: RAY_OBJECT_STORE_MEMORY
+                    value: "100000000"
                 resources:
                   requests:
                     cpu: "200m"
-                    memory: "256Mi"
+                    memory: "200Mi"
                   limits:
                     cpu: "500m"
                     memory: "512Mi"
