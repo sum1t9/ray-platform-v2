@@ -19,8 +19,8 @@ spec:
     headGroupSpec:
       serviceType: ClusterIP
       rayStartParams:
-        num-cpus: "2"
-        object-store-memory: "2147483648"
+        num-cpus: "1"
+        object-store-memory: "134217728"
       template:
         spec:
           serviceAccountName: ray-head-sa-v2
@@ -29,12 +29,12 @@ spec:
           containers:
             - name: ray-head
               # PLACEHOLDER – CI will replace this with built image
-              image: "REGION-docker.pkg.dev/YOUR_PROJECT_ID/ray-repo/ray-pipeline:latest"
+              image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
               env:
                 - name: SUPPLYCHAIN_DATA_S1_PATH
-                  value: "gs://ray-platform-v2-ray2-data-bucket/supplychain.csv"
+                  value: "gs://ray-platform-v2-ray2-data-bucket/data/SupplyChain_Data_S1.csv"
                 - name: FINANCIAL_DATA_S2_PATH
-                  value: "gs://ray-platform-v2-ray2-data-bucket/financial.csv"
+                  value: "gs://ray-platform-v2-ray2-data-bucket/data/Financial_Data_S2.csv"
                 - name: LLM_API_KEY
                   valueFrom:
                     secretKeyRef:
@@ -42,11 +42,11 @@ spec:
                       key: LLM_API_KEY
               resources:
                 requests:
-                  cpu: "1"
-                  memory: "2Gi"
+                  cpu: "200m"
+                  memory: "256Mi"
                 limits:
-                  cpu: "2"
-                  memory: "4Gi"
+                  cpu: "500m"
+                  memory: "512Mi"
 
     workerGroupSpecs:
       - groupName: workers
@@ -54,7 +54,8 @@ spec:
         minReplicas: 0
         maxReplicas: 5
         rayStartParams:
-          num-cpus: "4"
+          num-cpus: "1"
+          resources: '"{\"entity_resolver\": 1}"'
         template:
           spec:
             serviceAccountName: ray-worker-sa-v2
@@ -65,12 +66,12 @@ spec:
                 effect: "NoSchedule"
             containers:
               - name: ray-worker
-                image: "REGION-docker.pkg.dev/YOUR_PROJECT_ID/ray-repo/ray-pipeline:latest"
+                image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
                 env:
                   - name: SUPPLYCHAIN_DATA_S1_PATH
-                    value: "gs://ray-platform-v2-ray2-data-bucket/supplychain.csv"
+                    value: "gs://ray-platform-v2-ray2-data-bucket/data/SupplyChain_Data_S1.csv"
                   - name: FINANCIAL_DATA_S2_PATH
-                    value: "gs://ray-platform-v2-ray2-data-bucket/financial.csv"
+                    value: "gs://ray-platform-v2-ray2-data-bucket/data/Financial_Data_S2.csv"
                   - name: LLM_API_KEY
                     valueFrom:
                       secretKeyRef:
@@ -78,8 +79,8 @@ spec:
                         key: LLM_API_KEY
                 resources:
                   requests:
-                    cpu: "1"
-                    memory: "2Gi"
+                    cpu: "200m"
+                    memory: "256Mi"
                   limits:
-                    cpu: "2"
-                    memory: "4Gi"
+                    cpu: "500m"
+                    memory: "512Mi"

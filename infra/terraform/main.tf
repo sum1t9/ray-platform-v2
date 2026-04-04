@@ -58,7 +58,7 @@ resource "google_container_node_pool" "system_pool" {
   node_count = 1
 
   node_config {
-    machine_type = "e2-small"
+    machine_type = "e2-medium"
     disk_type    = "pd-standard"
     disk_size_gb = 50
 
@@ -86,7 +86,7 @@ resource "google_container_node_pool" "worker_pool" {
   }
 
   node_config {
-    machine_type = "e2-small"
+    machine_type = "e2-medium"
     preemptible  = true
     disk_type    = "pd-standard"
     disk_size_gb = 50

@@ -1,0 +1,1001 @@
+record_id,corporate_name,supplier_tier,country,annual_spend_usd,contract_start,category,risk_score,is_active,contact_email
+SC-00001,Meridian Corp,Tier 3,India,1262214.68,2020-10-12,Electronics,6.77,True,procurement@meridiancorp.com
+SC-00002,Tempest Energy,Tier 1,USA,513791.44,2021-04-21,Services,6.02,True,procurement@tempestenerg.com
+SC-00003,Forge Industries,Tier 1,China,2966865.14,2020-01-14,Logistics,6.98,True,procurement@forgeindustr.com
+SC-00004,Stellar Pharma,Tier 1,France,1716143.0,2020-07-08,Software,0.97,True,procurement@stellarpharm.com
+SC-00005,Delphi Advisors,Tier 1,Japan,2324153.15,2020-09-12,Software,0.79,True,procurement@delphiadviso.com
+SC-00006,Aether Networks,Tier 3,Germany,3537630.59,2020-04-03,Logistics,7.73,True,procurement@aethernetwor.com
+SC-00007,Titan Mfg,Tier 2,India,2294381.0,2022-01-17,Logistics,3.7,True,procurement@titanmanufac.com
+SC-00008,Stellar Pharma,Tier 3,Japan,897136.31,2021-05-16,Logistics,4.62,True,procurement@stellarpharm.com
+SC-00009,Nimbus Cloud,Tier 3,India,4222117.0,2020-04-24,Logistics,8.22,True,procurement@nimbuscloud.com
+SC-00010,Prism Consulting,Tier 1,Germany,4570023.81,2023-03-07,Raw Materials,2.13,False,procurement@prismconsult.com
+SC-00011,Prism Consulting,Tier 1,India,741170.08,2023-02-23,Services,2.63,False,procurement@prismconsult.com
+SC-00012,Tempest Energy,Tier 2,Germany,4986762.6,2020-10-10,Services,4.94,True,procurement@tempestenerg.com
+SC-00013,Meridian Corp,Tier 3,Germany,3970792.85,2022-05-14,Services,0.64,False,procurement@meridiancorp.com
+SC-00014,Delphi Advisors,Tier 3,India,4856837.97,2020-01-24,Electronics,6.82,True,procurement@delphiadviso.com
+SC-00015,Sirius Retail,Tier 2,China,832880.88,2020-01-07,Raw Materials,9.72,True,procurement@siriusretail.com
+SC-00016,Vertex Capital,Tier 3,India,4216263.27,2022-11-05,Services,1.99,True,procurement@vertexcapita.com
+SC-00017,Stratos Global,Tier 3,India,2468598.25,2020-08-17,Raw Materials,8.79,True,procurement@stratosgloba.com
+SC-00018,Nova Logistics,Tier 1,UK,4737399.75,2020-06-24,Software,8.16,True,procurement@novalogistic.com
+SC-00019,Apex Industries LLC,Tier 2,UK,867378.45,2022-12-16,Services,4.23,True,procurement@apexindustri.com
+SC-00020,Forge Industries,Tier 3,India,2025011.88,2023-10-07,Raw Materials,4.38,False,procurement@forgeindustr.com
+SC-00021,Meridian Corp,Tier 1,USA,1723523.53,2023-04-19,Services,2.3,True,procurement@meridiancorp.com
+SC-00022,Acme Corp,Tier 3,Japan,341425.15,2020-05-18,Electronics,8.6,True,procurement@acmecorporat.com
+SC-00023,Vertex Capital,Tier 2,Japan,2452801.77,2023-01-09,Logistics,7.23,False,procurement@vertexcapita.com
+SC-00024,Nova Logistics,Tier 2,Germany,516912.69,2023-09-11,Software,3.54,False,procurement@novalogistic.com
+SC-00025,Summit Resources,Tier 3,Japan,4921617.8,2020-07-20,Electronics,4.03,True,procurement@summitresour.com
+SC-00026,Catalyst Group,Tier 1,Germany,2704614.48,2020-10-14,Software,1.83,False,procurement@catalystgrou.com
+SC-00027,Nova Logistics,Tier 2,France,4313678.07,2023-02-01,Electronics,0.51,True,procurement@novalogistic.com
+SC-00028,Horizon Enterprises,Tier 1,China,2453923.57,2021-03-13,Software,9.02,True,procurement@horizonenter.com
+SC-00029,Delta Robotics,Tier 2,India,4636264.46,2022-07-20,Raw Materials,4.23,False,procurement@deltarobotic.com
+SC-00030,Zenith Tech,Tier 2,Germany,4845111.36,2023-04-01,Services,0.61,True,procurement@zenithtechno.com
+SC-00031,Pinnacle Sys,Tier 3,China,2539109.4,2022-12-23,Logistics,0.57,True,procurement@pinnaclesyst.com
+SC-00032,Orion Dynamics,Tier 3,USA,3392302.14,2021-04-26,Software,1.2,True,procurement@oriondynamic.com
+SC-00033,Tempest Energy,Tier 3,USA,2125163.33,2023-04-10,Services,5.23,True,procurement@tempestenerg.com
+SC-00034,Solaris Energy,Tier 1,India,2009139.94,2023-10-07,Raw Materials,4.57,True,procurement@solarisenerg.com
+SC-00035,ACME Corporation,Tier 3,UK,4980677.42,2020-05-30,Services,2.13,True,procurement@acmecorporat.com
+SC-00036,APEX Industries,Tier 1,Germany,1879159.09,2020-11-19,Software,8.34,True,procurement@apexindustri.com
+SC-00037,Aether Networks,Tier 3,France,2795281.3,2023-09-20,Electronics,9.39,True,procurement@aethernetwor.com
+SC-00038,Quantum Analytic,Tier 1,Japan,2788457.02,2021-07-11,Raw Materials,6.05,True,procurement@quantumanaly.com
+SC-00039,Solaris Energy,Tier 3,China,1293050.2,2020-04-14,Electronics,6.34,True,procurement@solarisenerg.com
+SC-00040,NexGen Solution,Tier 2,France,697557.32,2021-06-20,Logistics,7.41,False,procurement@nexgensoluti.com
+SC-00041,Nimbus Cloud,Tier 1,USA,4728002.15,2023-11-16,Logistics,5.46,True,procurement@nimbuscloud.com
+SC-00042,Tempest Energy,Tier 2,Germany,257052.85,2022-01-16,Electronics,8.99,True,procurement@tempestenerg.com
+SC-00043,Nova Logistics,Tier 2,France,2821423.42,2022-04-12,Services,7.49,True,procurement@novalogistic.com
+SC-00044,Stratos Global,Tier 2,USA,937835.28,2021-11-11,Software,8.02,True,procurement@stratosgloba.com
+SC-00045,Stellar Pharma,Tier 3,USA,1943581.53,2020-03-20,Software,2.22,False,procurement@stellarpharm.com
+SC-00046,Helios Media,Tier 1,Germany,167138.95,2021-01-30,Software,3.28,True,procurement@heliosmedia.com
+SC-00047,Stellar Pharma,Tier 3,UK,2028408.0,2023-01-03,Raw Materials,9.39,True,procurement@stellarpharm.com
+SC-00048,Quantum Analytic,Tier 3,India,239373.13,2023-05-06,Software,3.46,True,procurement@quantumanaly.com
+SC-00049,Synapse Artificial Intelligence,Tier 3,USA,1956717.4,2023-03-26,Logistics,2.55,False,procurement@synapseai.com
+SC-00050,Acme Corp.,Tier 3,Japan,3611178.5,2023-10-05,Logistics,3.64,True,procurement@acmecorporat.com
+SC-00051,Sirius Retail,Tier 3,France,666895.31,2021-09-07,Services,3.09,False,procurement@siriusretail.com
+SC-00052,Indigo Capital,Tier 3,India,2794341.76,2021-01-27,Software,6.65,False,procurement@indigocapita.com
+SC-00053,Orion Dynamics,Tier 2,UK,4176939.59,2021-09-14,Raw Materials,2.1,True,procurement@oriondynamic.com
+SC-00054,Summit Resources,Tier 2,Japan,1107821.93,2022-08-27,Logistics,6.59,True,procurement@summitresour.com
+SC-00055,Vertex Capital,Tier 1,France,4762398.33,2021-04-26,Raw Materials,2.25,True,procurement@vertexcapita.com
+SC-00056,Zenith Tech,Tier 1,Germany,4920483.31,2023-06-05,Electronics,4.55,True,procurement@zenithtechno.com
+SC-00057,Delta Robotics,Tier 2,Germany,780478.16,2023-11-09,Electronics,8.93,True,procurement@deltarobotic.com
+SC-00058,Synapse A.I.,Tier 1,France,4791931.91,2022-11-26,Software,0.5,True,procurement@synapseai.com
+SC-00059,Meridian Corp,Tier 1,France,2349984.03,2022-12-23,Services,5.95,False,procurement@meridiancorp.com
+SC-00060,Aether Networks,Tier 3,China,4491180.11,2022-08-30,Software,2.59,True,procurement@aethernetwor.com
+SC-00061,Stellar Pharma,Tier 3,Germany,1409257.36,2020-06-07,Raw Materials,2.34,True,procurement@stellarpharm.com
+SC-00062,Indigo Capital,Tier 1,Germany,1194744.32,2023-11-22,Logistics,7.06,True,procurement@indigocapita.com
+SC-00063,Ionic Materials,Tier 2,UK,2356325.3,2020-05-07,Logistics,8.33,False,procurement@ionicmateria.com
+SC-00064,Tempest Energy,Tier 3,China,2411049.68,2021-12-21,Raw Materials,7.53,False,procurement@tempestenerg.com
+SC-00065,Forge Industries,Tier 2,Germany,1401029.79,2022-09-21,Electronics,3.89,False,procurement@forgeindustr.com
+SC-00066,Stratos Global,Tier 1,UK,2693911.97,2022-03-17,Services,5.64,True,procurement@stratosgloba.com
+SC-00067,Horizon Enterprises,Tier 1,France,2335407.3,2020-04-12,Raw Materials,3.79,True,procurement@horizonenter.com
+SC-00068,Summit Resources,Tier 2,France,4404217.93,2021-07-23,Software,2.52,True,procurement@summitresour.com
+SC-00069,Eclipse Trading,Tier 3,UK,307823.76,2021-12-17,Logistics,6.5,True,procurement@eclipsetradi.com
+SC-00070,Global Tech Inc,Tier 1,France,150881.09,2020-11-08,Logistics,1.26,True,procurement@globaltechin.com
+SC-00071,Solace Systems,Tier 2,Japan,1318406.3,2022-01-25,Logistics,6.06,True,procurement@solacesystem.com
+SC-00072,Stratos Global,Tier 1,UK,177108.21,2021-09-30,Services,6.77,False,procurement@stratosgloba.com
+SC-00073,Prism Consulting,Tier 1,UK,3468541.36,2023-07-08,Logistics,1.02,True,procurement@prismconsult.com
+SC-00074,Delphi Advisors,Tier 3,France,253292.19,2022-12-27,Software,6.62,True,procurement@delphiadviso.com
+SC-00075,Vertex Capital,Tier 1,France,2129290.77,2022-09-30,Electronics,4.34,True,procurement@vertexcapita.com
+SC-00076,Summit Resources,Tier 2,Germany,3682286.75,2023-08-25,Raw Materials,6.16,False,procurement@summitresour.com
+SC-00077,Summit Resources,Tier 3,UK,1378557.91,2021-05-17,Electronics,2.79,False,procurement@summitresour.com
+SC-00078,Nova Logistics,Tier 3,UK,3357532.93,2021-11-19,Electronics,4.94,True,procurement@novalogistic.com
+SC-00079,Orion Dynamics,Tier 1,India,3999270.17,2021-11-28,Raw Materials,8.8,True,procurement@oriondynamic.com
+SC-00080,Nimbus Cloud,Tier 3,Germany,473784.16,2022-04-12,Software,5.55,True,procurement@nimbuscloud.com
+SC-00081,Eclipse Trading,Tier 2,France,135354.13,2021-08-25,Logistics,4.04,True,procurement@eclipsetradi.com
+SC-00082,Cobalt Ventures,Tier 2,UK,2678063.56,2022-05-21,Services,3.31,False,procurement@cobaltventur.com
+SC-00083,Stellar Pharma,Tier 2,Germany,647246.63,2021-01-29,Raw Materials,1.2,True,procurement@stellarpharm.com
+SC-00084,Vanguard Networks,Tier 3,China,1418673.15,2023-04-22,Services,5.97,True,procurement@vanguardnetw.com
+SC-00085,Vanguard Networks,Tier 1,India,938235.64,2020-01-29,Services,1.27,True,procurement@vanguardnetw.com
+SC-00086,Pinnacle,Tier 2,Japan,4723243.59,2023-07-30,Software,1.03,True,procurement@pinnaclesyst.com
+SC-00087,Solace Systems,Tier 2,China,2230320.55,2021-01-12,Electronics,2.52,False,procurement@solacesystem.com
+SC-00088,Meridian Corp,Tier 2,China,416706.74,2023-07-13,Electronics,1.52,True,procurement@meridiancorp.com
+SC-00089,Horizon Enterprises,Tier 1,UK,3833995.05,2023-05-26,Services,7.91,True,procurement@horizonenter.com
+SC-00090,Radiant Health,Tier 2,China,1521898.01,2023-04-20,Software,3.05,True,procurement@radianthealt.com
+SC-00091,Aether Networks,Tier 1,Japan,1094574.72,2023-09-14,Electronics,1.57,True,procurement@aethernetwor.com
+SC-00092,Nimbus Cloud,Tier 1,USA,2072161.98,2023-11-12,Services,4.7,True,procurement@nimbuscloud.com
+SC-00093,Titan Manufacturing Co,Tier 3,India,3529788.41,2022-07-18,Electronics,6.87,True,procurement@titanmanufac.com
+SC-00094,Tempest Energy,Tier 2,USA,2745583.77,2023-08-19,Logistics,9.08,True,procurement@tempestenerg.com
+SC-00095,Vertex Holdings,Tier 1,France,1572678.47,2023-03-11,Raw Materials,4.39,False,procurement@vertexholdin.com
+SC-00096,Cobalt Ventures,Tier 2,UK,2722908.73,2022-06-15,Electronics,5.98,False,procurement@cobaltventur.com
+SC-00097,Indigo Capital,Tier 1,USA,1183175.86,2023-10-12,Services,5.87,True,procurement@indigocapita.com
+SC-00098,Stellar Pharma,Tier 1,China,2618871.01,2022-06-24,Raw Materials,1.81,False,procurement@stellarpharm.com
+SC-00099,Pulsar Electronics,Tier 2,India,2071323.06,2021-10-19,Electronics,8.58,True,procurement@pulsarelectr.com
+SC-00100,Ionic Materials,Tier 2,Japan,4728708.02,2023-01-31,Electronics,4.55,True,procurement@ionicmateria.com
+SC-00101,Quantum Analytics Inc,Tier 1,France,2050666.53,2022-11-19,Electronics,6.58,False,procurement@quantumanaly.com
+SC-00102,Ionic Materials,Tier 1,UK,1840807.83,2022-10-17,Software,7.6,True,procurement@ionicmateria.com
+SC-00103,Stellar Pharma,Tier 2,China,4410190.76,2022-09-19,Electronics,0.29,True,procurement@stellarpharm.com
+SC-00104,Stratos Global,Tier 3,USA,2783644.47,2020-07-09,Logistics,9.92,True,procurement@stratosgloba.com
+SC-00105,Summit Resources,Tier 3,France,812157.07,2021-08-20,Services,7.05,False,procurement@summitresour.com
+SC-00106,Eclipse Trading,Tier 1,China,2778762.13,2022-02-24,Logistics,9.22,True,procurement@eclipsetradi.com
+SC-00107,Vertex Holdings,Tier 2,India,4674529.55,2022-11-05,Raw Materials,8.21,True,procurement@vertexholdin.com
+SC-00108,Cobalt Ventures,Tier 1,China,2715973.86,2021-12-07,Raw Materials,5.52,False,procurement@cobaltventur.com
+SC-00109,Summit Resources,Tier 1,Japan,1232087.44,2022-02-23,Logistics,8.56,False,procurement@summitresour.com
+SC-00110,Next Gen Solutions,Tier 3,China,3540878.01,2022-02-19,Software,9.88,True,procurement@nexgensoluti.com
+SC-00111,Pulsar Electronics,Tier 1,UK,4828500.27,2021-11-10,Electronics,8.74,False,procurement@pulsarelectr.com
+SC-00112,Catalyst Group,Tier 1,Japan,763569.31,2023-09-02,Logistics,0.75,True,procurement@catalystgrou.com
+SC-00113,Sirius Retail,Tier 3,USA,4266238.2,2023-10-13,Services,3.8,True,procurement@siriusretail.com
+SC-00114,Pulsar Electronics,Tier 3,USA,1212112.7,2023-11-02,Raw Materials,9.97,True,procurement@pulsarelectr.com
+SC-00115,Synapse A.I.,Tier 3,Japan,4369267.2,2022-06-27,Logistics,6.94,True,procurement@synapseai.com
+SC-00116,Next Gen Solutions,Tier 1,India,1824393.54,2022-06-01,Logistics,2.44,False,procurement@nexgensoluti.com
+SC-00117,Solace Systems,Tier 1,Germany,440893.34,2022-02-22,Services,6.83,False,procurement@solacesystem.com
+SC-00118,Tempest Energy,Tier 1,China,3207627.92,2022-07-30,Raw Materials,6.67,False,procurement@tempestenerg.com
+SC-00119,Atlas Freight Co,Tier 3,Germany,415616.41,2021-12-08,Services,2.99,False,procurement@atlasfreight.com
+SC-00120,Quantum Analytics Inc,Tier 2,Germany,4996899.15,2022-09-16,Electronics,2.37,True,procurement@quantumanaly.com
+SC-00121,Solace Systems,Tier 3,India,158601.01,2023-09-10,Software,2.74,True,procurement@solacesystem.com
+SC-00122,Delphi Advisors,Tier 2,France,4004357.59,2023-05-28,Raw Materials,2.19,True,procurement@delphiadviso.com
+SC-00123,Aether Networks,Tier 3,France,3618595.46,2023-09-12,Logistics,6.28,True,procurement@aethernetwor.com
+SC-00124,Cobalt Ventures,Tier 1,UK,1856063.1,2020-09-26,Electronics,9.1,True,procurement@cobaltventur.com
+SC-00125,Ionic Materials,Tier 1,Germany,3943238.41,2022-01-19,Services,5.02,True,procurement@ionicmateria.com
+SC-00126,Stratos Global,Tier 2,France,1510950.17,2021-11-24,Electronics,4.68,True,procurement@stratosgloba.com
+SC-00127,Zenith Tech,Tier 3,Japan,3388310.84,2022-03-24,Services,3.66,False,procurement@zenithtechno.com
+SC-00128,ACME Corporation,Tier 3,USA,2301190.84,2023-10-09,Raw Materials,5.85,True,procurement@acmecorporat.com
+SC-00129,Catalyst Group,Tier 2,USA,3116756.99,2023-02-23,Raw Materials,9.15,True,procurement@catalystgrou.com
+SC-00130,Vertex Holdings,Tier 3,India,3263735.26,2020-08-26,Logistics,0.45,True,procurement@vertexholdin.com
+SC-00131,Cobalt Ventures,Tier 1,USA,1212260.16,2023-01-05,Logistics,3.89,True,procurement@cobaltventur.com
+SC-00132,Forge Industries,Tier 3,Japan,3646665.8,2022-04-29,Electronics,8.34,False,procurement@forgeindustr.com
+SC-00133,Stellar Pharma,Tier 3,India,1125484.94,2022-06-29,Logistics,8.55,True,procurement@stellarpharm.com
+SC-00134,Crest Financial,Tier 1,China,1415613.13,2020-09-07,Software,0.92,True,procurement@crestfinanci.com
+SC-00135,Delphi Advisors,Tier 1,France,1700870.32,2020-09-14,Services,2.05,True,procurement@delphiadviso.com
+SC-00136,Tempest Energy,Tier 1,India,3883124.46,2023-05-05,Electronics,2.77,True,procurement@tempestenerg.com
+SC-00137,Apex Industries LLC,Tier 2,France,913760.75,2023-09-15,Electronics,1.32,True,procurement@apexindustri.com
+SC-00138,Nova Logistics,Tier 1,Germany,1363569.17,2020-09-16,Software,5.26,True,procurement@novalogistic.com
+SC-00139,Eclipse Trading,Tier 2,UK,2988646.79,2022-07-14,Services,2.22,True,procurement@eclipsetradi.com
+SC-00140,Radiant Health,Tier 2,Japan,4821929.61,2020-05-04,Software,8.47,False,procurement@radianthealt.com
+SC-00141,Catalyst Group,Tier 3,China,413779.04,2020-06-14,Raw Materials,6.08,True,procurement@catalystgrou.com
+SC-00142,APEX Industries,Tier 3,Japan,2947555.21,2023-12-29,Raw Materials,3.81,True,procurement@apexindustri.com
+SC-00143,Summit Resources,Tier 1,France,3523808.12,2023-09-02,Services,7.21,True,procurement@summitresour.com
+SC-00144,SynapseAI,Tier 1,China,1727711.51,2022-07-17,Software,4.16,True,procurement@synapseai.com
+SC-00145,Indigo Capital,Tier 2,Japan,1311704.49,2020-11-08,Software,0.67,True,procurement@indigocapita.com
+SC-00146,Horizon Enterprises,Tier 1,Japan,3707040.19,2020-09-23,Services,0.6,True,procurement@horizonenter.com
+SC-00147,Meridian Corp,Tier 2,France,3343435.57,2022-05-16,Electronics,9.68,True,procurement@meridiancorp.com
+SC-00148,Helios Media,Tier 3,UK,1103057.09,2023-09-06,Software,2.24,True,procurement@heliosmedia.com
+SC-00149,Helios Media,Tier 1,France,1428912.65,2021-04-08,Software,8.45,True,procurement@heliosmedia.com
+SC-00150,Delphi Advisors,Tier 1,Germany,1402688.42,2021-09-24,Raw Materials,3.51,True,procurement@delphiadviso.com
+SC-00151,Zenith,Tier 3,China,394447.84,2023-07-20,Electronics,0.92,True,procurement@zenithtechno.com
+SC-00152,Delta Robotics,Tier 2,India,829175.92,2021-09-30,Raw Materials,7.77,True,procurement@deltarobotic.com
+SC-00153,Pinnacle Sys,Tier 1,France,3108299.0,2023-10-12,Electronics,2.72,False,procurement@pinnaclesyst.com
+SC-00154,Pulsar Electronics,Tier 2,India,1117066.38,2022-11-15,Electronics,3.45,True,procurement@pulsarelectr.com
+SC-00155,Atlas Freight Co,Tier 3,UK,2458832.13,2023-09-28,Raw Materials,0.45,False,procurement@atlasfreight.com
+SC-00156,Delphi Advisors,Tier 1,Germany,1542025.84,2021-03-08,Logistics,7.64,True,procurement@delphiadviso.com
+SC-00157,Indigo Capital,Tier 1,China,3747719.91,2020-12-25,Logistics,3.8,True,procurement@indigocapita.com
+SC-00158,Vertex Capital,Tier 1,China,4315733.59,2020-03-27,Software,0.19,True,procurement@vertexcapita.com
+SC-00159,Indigo Capital,Tier 3,China,3562019.86,2022-05-05,Raw Materials,1.15,True,procurement@indigocapita.com
+SC-00160,Indigo Capital,Tier 3,China,4168528.27,2022-01-11,Electronics,4.37,True,procurement@indigocapita.com
+SC-00161,Nova Logistics,Tier 3,China,2643614.59,2022-03-21,Raw Materials,7.46,True,procurement@novalogistic.com
+SC-00162,Sirius Retail,Tier 1,UK,3184462.1,2022-12-22,Services,1.94,True,procurement@siriusretail.com
+SC-00163,Helios Media,Tier 1,USA,774898.88,2021-02-08,Logistics,6.02,True,procurement@heliosmedia.com
+SC-00164,Orion Dynamics,Tier 2,France,2840490.64,2023-04-01,Software,6.81,True,procurement@oriondynamic.com
+SC-00165,Indigo Capital,Tier 2,USA,2371159.36,2023-07-17,Raw Materials,7.96,True,procurement@indigocapita.com
+SC-00166,Helios Media,Tier 2,China,2286973.63,2020-04-26,Raw Materials,8.32,True,procurement@heliosmedia.com
+SC-00167,Horizon Enterprises,Tier 2,UK,2793866.04,2020-03-25,Software,9.09,True,procurement@horizonenter.com
+SC-00168,Indigo Capital,Tier 3,Germany,4790725.68,2022-07-11,Electronics,8.11,True,procurement@indigocapita.com
+SC-00169,Horizon Enterprises,Tier 1,Germany,3552727.44,2022-06-18,Services,5.23,True,procurement@horizonenter.com
+SC-00170,Crest Financial,Tier 2,China,2073408.52,2021-11-23,Services,0.52,True,procurement@crestfinanci.com
+SC-00171,Vertex Holdings,Tier 1,UK,3407977.76,2021-08-04,Raw Materials,7.24,True,procurement@vertexholdin.com
+SC-00172,Sirius Retail,Tier 3,Japan,750070.48,2021-12-17,Raw Materials,9.68,False,procurement@siriusretail.com
+SC-00173,Apex Industries LLC,Tier 3,USA,1582430.34,2022-02-10,Raw Materials,8.13,True,procurement@apexindustri.com
+SC-00174,Synapse Artificial Intelligence,Tier 2,USA,1844858.46,2021-01-04,Logistics,3.42,False,procurement@synapseai.com
+SC-00175,Vanguard Networks,Tier 1,Germany,431967.17,2020-07-26,Services,7.71,True,procurement@vanguardnetw.com
+SC-00176,Sirius Retail,Tier 3,China,813551.17,2021-01-05,Services,8.09,True,procurement@siriusretail.com
+SC-00177,Cascade Biotech,Tier 2,India,3397996.46,2021-05-01,Software,6.11,False,procurement@cascadebiote.com
+SC-00178,TITAN Manufacturing,Tier 1,India,4829703.35,2022-08-18,Logistics,3.68,False,procurement@titanmanufac.com
+SC-00179,Summit Resources,Tier 2,UK,2660925.95,2020-11-27,Logistics,8.01,True,procurement@summitresour.com
+SC-00180,Quantum Analytic,Tier 3,China,4376878.88,2023-02-09,Electronics,7.11,True,procurement@quantumanaly.com
+SC-00181,Atlas Freight LLC,Tier 1,India,2274130.14,2022-11-17,Logistics,8.31,True,procurement@atlasfreight.com
+SC-00182,Titan Manufacturing Co,Tier 2,USA,2103739.68,2022-03-22,Services,3.74,False,procurement@titanmanufac.com
+SC-00183,Horizon Enterprises,Tier 1,USA,1627490.13,2020-07-21,Raw Materials,7.91,True,procurement@horizonenter.com
+SC-00184,Next Gen Solutions,Tier 2,Japan,4163996.91,2023-12-15,Software,4.49,True,procurement@nexgensoluti.com
+SC-00185,Horizon Enterprises,Tier 2,Germany,4183067.34,2023-01-28,Services,5.28,True,procurement@horizonenter.com
+SC-00186,Atlas Freight LLC,Tier 2,USA,286359.76,2022-05-09,Services,4.57,True,procurement@atlasfreight.com
+SC-00187,Pulsar Electronics,Tier 3,UK,2896484.91,2020-10-21,Raw Materials,4.29,True,procurement@pulsarelectr.com
+SC-00188,Nova Logistics,Tier 1,Japan,3357663.77,2022-12-08,Raw Materials,0.68,True,procurement@novalogistic.com
+SC-00189,Delta Robotics,Tier 1,Japan,1965062.54,2022-02-03,Raw Materials,7.47,True,procurement@deltarobotic.com
+SC-00190,Vertex Holdings,Tier 1,Japan,3302666.78,2020-07-31,Services,7.35,True,procurement@vertexholdin.com
+SC-00191,Apex Ind.,Tier 2,UK,1725808.93,2023-08-09,Logistics,8.3,False,procurement@apexindustri.com
+SC-00192,Eclipse Trading,Tier 1,USA,3594423.04,2022-07-26,Electronics,2.93,True,procurement@eclipsetradi.com
+SC-00193,Vanguard Networks,Tier 2,India,2601148.77,2023-01-17,Software,2.53,True,procurement@vanguardnetw.com
+SC-00194,ATLAS Freight,Tier 1,France,3295870.27,2021-07-13,Electronics,7.99,False,procurement@atlasfreight.com
+SC-00195,Prism Consulting,Tier 2,India,4869931.74,2022-10-13,Software,3.67,True,procurement@prismconsult.com
+SC-00196,Horizon Enterprises,Tier 1,China,3032143.83,2021-01-04,Services,2.94,True,procurement@horizonenter.com
+SC-00197,Horizon Enterprises,Tier 3,India,1567154.49,2023-05-19,Software,1.67,False,procurement@horizonenter.com
+SC-00198,Helios Media,Tier 1,Japan,4356684.02,2021-12-23,Services,9.98,True,procurement@heliosmedia.com
+SC-00199,Pinnacle Sys,Tier 3,Japan,2060740.65,2022-11-16,Logistics,9.53,True,procurement@pinnaclesyst.com
+SC-00200,Delphi Advisors,Tier 1,Germany,382805.15,2023-08-14,Raw Materials,3.62,True,procurement@delphiadviso.com
+SC-00201,Delphi Advisors,Tier 3,China,4746676.47,2022-01-31,Software,7.63,True,procurement@delphiadviso.com
+SC-00202,Radiant Health,Tier 2,India,3265325.65,2021-05-26,Electronics,0.26,True,procurement@radianthealt.com
+SC-00203,Pulsar Electronics,Tier 3,USA,1345794.55,2021-06-17,Software,2.15,True,procurement@pulsarelectr.com
+SC-00204,Pulsar Electronics,Tier 1,Germany,4271490.14,2022-07-14,Logistics,8.99,False,procurement@pulsarelectr.com
+SC-00205,Horizon Enterprises,Tier 3,India,3562225.41,2023-01-31,Services,2.9,True,procurement@horizonenter.com
+SC-00206,Stratos Global,Tier 2,UK,1159996.0,2021-02-15,Logistics,2.37,False,procurement@stratosgloba.com
+SC-00207,GlobalTech Incorporated,Tier 3,UK,1876110.27,2023-02-03,Logistics,6.12,True,procurement@globaltechin.com
+SC-00208,Vertex Holdings,Tier 2,Japan,3608404.82,2022-12-12,Software,7.69,True,procurement@vertexholdin.com
+SC-00209,APEX Industries,Tier 3,USA,2277373.75,2023-10-24,Services,3.45,True,procurement@apexindustri.com
+SC-00210,APEX Industries,Tier 3,France,324293.61,2020-09-11,Services,1.53,True,procurement@apexindustri.com
+SC-00211,Stratos Global,Tier 3,Germany,1762814.26,2022-11-28,Raw Materials,8.46,True,procurement@stratosgloba.com
+SC-00212,Vanguard Networks,Tier 1,Japan,1548981.8,2022-12-28,Electronics,5.03,True,procurement@vanguardnetw.com
+SC-00213,Tempest Energy,Tier 1,Japan,3141171.98,2023-05-24,Raw Materials,8.43,True,procurement@tempestenerg.com
+SC-00214,Global Tech Inc,Tier 1,Japan,3866560.73,2021-06-26,Logistics,7.67,False,procurement@globaltechin.com
+SC-00215,Aether Networks,Tier 2,Japan,2750608.54,2023-08-07,Raw Materials,4.83,False,procurement@aethernetwor.com
+SC-00216,Cobalt Ventures,Tier 1,Japan,346569.51,2022-06-19,Software,4.84,True,procurement@cobaltventur.com
+SC-00217,Sirius Retail,Tier 2,France,3605896.28,2021-12-08,Software,1.31,True,procurement@siriusretail.com
+SC-00218,Vertex Capital,Tier 2,Germany,2359039.21,2021-07-01,Software,2.48,True,procurement@vertexcapita.com
+SC-00219,Pinnacle Systems Ltd,Tier 2,France,3096118.35,2021-05-23,Logistics,8.13,True,procurement@pinnaclesyst.com
+SC-00220,Vanguard Networks,Tier 2,UK,2360734.83,2021-09-23,Software,0.23,False,procurement@vanguardnetw.com
+SC-00221,Vertex Capital,Tier 1,Germany,2937553.35,2020-04-09,Electronics,2.81,False,procurement@vertexcapita.com
+SC-00222,Atlas Freight Co,Tier 1,France,582110.57,2020-10-01,Raw Materials,7.28,False,procurement@atlasfreight.com
+SC-00223,Crest Financial,Tier 2,USA,2872894.14,2021-02-02,Raw Materials,5.53,True,procurement@crestfinanci.com
+SC-00224,Delta Robotics,Tier 3,India,4135291.02,2023-06-30,Services,1.19,True,procurement@deltarobotic.com
+SC-00225,Prism Consulting,Tier 2,UK,4697795.41,2020-10-22,Logistics,6.02,False,procurement@prismconsult.com
+SC-00226,Vertex Capital,Tier 1,USA,728330.05,2021-11-13,Software,5.19,True,procurement@vertexcapita.com
+SC-00227,Delphi Advisors,Tier 2,UK,1626723.66,2022-03-15,Services,7.39,True,procurement@delphiadviso.com
+SC-00228,Tempest Energy,Tier 3,France,2573084.8,2022-09-30,Services,3.0,True,procurement@tempestenerg.com
+SC-00229,Crest Financial,Tier 3,USA,4900495.25,2023-04-10,Raw Materials,7.97,True,procurement@crestfinanci.com
+SC-00230,Delphi Advisors,Tier 2,Japan,3925374.76,2023-03-30,Services,2.28,True,procurement@delphiadviso.com
+SC-00231,Tempest Energy,Tier 1,UK,3163674.94,2023-06-23,Software,1.48,True,procurement@tempestenerg.com
+SC-00232,NexGen,Tier 3,USA,994382.42,2022-06-22,Raw Materials,4.19,False,procurement@nexgensoluti.com
+SC-00233,Solaris Energy,Tier 3,France,3076816.4,2022-08-23,Electronics,7.06,True,procurement@solarisenerg.com
+SC-00234,Nimbus Cloud,Tier 3,China,2651111.9,2021-10-04,Logistics,4.6,True,procurement@nimbuscloud.com
+SC-00235,Forge Industries,Tier 3,France,4344889.3,2023-10-26,Raw Materials,6.1,True,procurement@forgeindustr.com
+SC-00236,Nova Logistics,Tier 3,India,1163091.84,2021-09-01,Raw Materials,7.05,False,procurement@novalogistic.com
+SC-00237,Indigo Capital,Tier 2,UK,4671816.86,2021-07-14,Raw Materials,1.22,False,procurement@indigocapita.com
+SC-00238,Prism Consulting,Tier 1,India,258229.11,2020-06-10,Raw Materials,9.24,True,procurement@prismconsult.com
+SC-00239,Eclipse Trading,Tier 1,France,2715960.72,2023-02-25,Raw Materials,1.37,True,procurement@eclipsetradi.com
+SC-00240,Nova Logistics,Tier 3,UK,1167074.65,2021-04-21,Electronics,1.0,True,procurement@novalogistic.com
+SC-00241,Eclipse Trading,Tier 3,France,730461.82,2023-02-01,Logistics,4.07,False,procurement@eclipsetradi.com
+SC-00242,Eclipse Trading,Tier 2,India,1462805.94,2020-05-01,Electronics,6.52,True,procurement@eclipsetradi.com
+SC-00243,Forge Industries,Tier 1,China,4417112.62,2020-12-26,Electronics,9.97,False,procurement@forgeindustr.com
+SC-00244,Pulsar Electronics,Tier 3,France,4633896.5,2020-03-17,Electronics,2.98,True,procurement@pulsarelectr.com
+SC-00245,Sirius Retail,Tier 2,Japan,2739337.39,2022-10-08,Logistics,8.51,False,procurement@siriusretail.com
+SC-00246,Stellar Pharma,Tier 1,India,854346.6,2022-07-28,Raw Materials,7.19,True,procurement@stellarpharm.com
+SC-00247,Sirius Retail,Tier 3,Japan,3798549.61,2020-12-25,Services,8.56,False,procurement@siriusretail.com
+SC-00248,Synapse Artificial Intelligence,Tier 2,USA,2034124.57,2020-07-14,Logistics,9.82,False,procurement@synapseai.com
+SC-00249,Indigo Capital,Tier 1,India,1948693.23,2022-07-03,Raw Materials,9.54,True,procurement@indigocapita.com
+SC-00250,Tempest Energy,Tier 2,Japan,1829782.85,2021-04-28,Electronics,6.68,False,procurement@tempestenerg.com
+SC-00251,Cobalt Ventures,Tier 2,Japan,2537476.33,2023-12-11,Raw Materials,6.9,True,procurement@cobaltventur.com
+SC-00252,Crest Financial,Tier 1,Germany,2417000.4,2022-07-20,Services,3.74,False,procurement@crestfinanci.com
+SC-00253,Forge Industries,Tier 1,Japan,3785960.77,2020-06-16,Services,4.47,True,procurement@forgeindustr.com
+SC-00254,Vertex Holdings,Tier 1,France,2760863.78,2022-11-01,Logistics,5.73,True,procurement@vertexholdin.com
+SC-00255,Stratos Global,Tier 3,China,625388.11,2021-02-24,Services,4.89,False,procurement@stratosgloba.com
+SC-00256,Pinnacle Systems Ltd,Tier 1,UK,2106351.64,2023-02-28,Electronics,5.59,True,procurement@pinnaclesyst.com
+SC-00257,GlobalTech Incorporated,Tier 2,France,64926.58,2021-03-22,Services,0.73,False,procurement@globaltechin.com
+SC-00258,Helios Media,Tier 3,USA,4676184.85,2020-05-21,Software,0.32,False,procurement@heliosmedia.com
+SC-00259,Orion Dynamics,Tier 3,Japan,3247110.05,2022-05-10,Raw Materials,9.93,False,procurement@oriondynamic.com
+SC-00260,Cascade Biotech,Tier 2,USA,3429515.25,2023-09-17,Services,1.33,True,procurement@cascadebiote.com
+SC-00261,Meridian Corp,Tier 3,China,2667770.57,2021-04-01,Electronics,7.56,True,procurement@meridiancorp.com
+SC-00262,Summit Resources,Tier 3,China,4125634.17,2021-05-21,Software,3.46,True,procurement@summitresour.com
+SC-00263,Vanguard Networks,Tier 1,France,3317978.54,2023-06-13,Electronics,2.41,True,procurement@vanguardnetw.com
+SC-00264,Catalyst Group,Tier 2,UK,3376517.0,2020-04-09,Logistics,7.41,False,procurement@catalystgrou.com
+SC-00265,Cascade Biotech,Tier 3,Germany,3784209.26,2020-04-25,Logistics,5.04,True,procurement@cascadebiote.com
+SC-00266,TITAN Manufacturing,Tier 3,India,2908500.33,2023-10-09,Raw Materials,2.37,True,procurement@titanmanufac.com
+SC-00267,Radiant Health,Tier 2,India,1412011.91,2023-02-14,Services,8.8,True,procurement@radianthealt.com
+SC-00268,Synapse Artificial Intelligence,Tier 2,USA,4862836.66,2023-08-10,Software,7.86,True,procurement@synapseai.com
+SC-00269,Ionic Materials,Tier 1,India,1913477.93,2023-01-06,Software,2.41,True,procurement@ionicmateria.com
+SC-00270,Cobalt Ventures,Tier 2,USA,2833810.45,2022-05-03,Services,5.3,False,procurement@cobaltventur.com
+SC-00271,Nova Logistics,Tier 1,India,3251193.97,2022-07-10,Raw Materials,0.92,True,procurement@novalogistic.com
+SC-00272,Pinnacle Systems Ltd,Tier 2,Japan,3044598.76,2020-03-21,Electronics,1.88,True,procurement@pinnaclesyst.com
+SC-00273,Eclipse Trading,Tier 2,India,4787247.81,2020-02-01,Logistics,9.37,True,procurement@eclipsetradi.com
+SC-00274,Eclipse Trading,Tier 3,UK,3533654.48,2022-03-23,Logistics,5.52,True,procurement@eclipsetradi.com
+SC-00275,Delta Robotics,Tier 3,Japan,1828334.8,2021-06-19,Raw Materials,5.13,False,procurement@deltarobotic.com
+SC-00276,Summit Resources,Tier 3,China,3820063.4,2021-10-17,Logistics,3.71,False,procurement@summitresour.com
+SC-00277,NexGen,Tier 1,Japan,772317.43,2021-06-18,Services,9.35,False,procurement@nexgensoluti.com
+SC-00278,Atlas Freight LLC,Tier 1,India,1188592.2,2023-03-12,Logistics,4.99,True,procurement@atlasfreight.com
+SC-00279,Quantum Analytics Inc,Tier 3,Japan,3710990.75,2022-08-01,Logistics,7.33,True,procurement@quantumanaly.com
+SC-00280,Stratos Global,Tier 3,UK,2467165.79,2023-01-15,Electronics,5.24,True,procurement@stratosgloba.com
+SC-00281,Pinnacle Sys,Tier 2,Germany,4220596.35,2021-04-18,Electronics,7.07,True,procurement@pinnaclesyst.com
+SC-00282,Solaris Energy,Tier 2,USA,3108284.42,2023-09-27,Services,9.13,False,procurement@solarisenerg.com
+SC-00283,Global Tech Inc,Tier 3,UK,2086125.62,2020-02-04,Services,7.22,True,procurement@globaltechin.com
+SC-00284,Global Tech,Tier 3,Japan,2181337.38,2021-01-02,Electronics,9.18,True,procurement@globaltechin.com
+SC-00285,Nova Logistics,Tier 3,UK,1299470.07,2021-12-26,Raw Materials,7.95,True,procurement@novalogistic.com
+SC-00286,Crest Financial,Tier 2,UK,1253879.08,2023-11-28,Logistics,3.0,True,procurement@crestfinanci.com
+SC-00287,NexGen Solution,Tier 2,China,1916989.36,2022-09-01,Electronics,6.37,True,procurement@nexgensoluti.com
+SC-00288,Horizon Enterprises,Tier 2,Japan,3932662.74,2023-03-04,Electronics,8.95,True,procurement@horizonenter.com
+SC-00289,Titan Mfg,Tier 3,UK,2403726.42,2020-04-05,Electronics,6.84,True,procurement@titanmanufac.com
+SC-00290,Forge Industries,Tier 1,France,1606699.23,2021-02-28,Services,1.44,False,procurement@forgeindustr.com
+SC-00291,Vertex Holdings,Tier 1,UK,1240337.36,2022-03-07,Services,3.32,True,procurement@vertexholdin.com
+SC-00292,Horizon Enterprises,Tier 1,USA,2213586.85,2020-06-04,Raw Materials,6.05,False,procurement@horizonenter.com
+SC-00293,Indigo Capital,Tier 3,India,3928563.29,2022-07-11,Software,2.28,False,procurement@indigocapita.com
+SC-00294,Synapse A.I.,Tier 3,UK,3320325.94,2020-06-24,Services,2.95,True,procurement@synapseai.com
+SC-00295,Vertex Holdings,Tier 2,Germany,1930999.97,2023-07-22,Logistics,7.4,True,procurement@vertexholdin.com
+SC-00296,Crest Financial,Tier 1,USA,4717653.13,2022-06-29,Raw Materials,7.61,True,procurement@crestfinanci.com
+SC-00297,Apex Ind.,Tier 1,China,2271776.2,2023-02-10,Services,4.08,True,procurement@apexindustri.com
+SC-00298,Horizon Enterprises,Tier 3,USA,3004776.55,2021-10-26,Software,0.12,False,procurement@horizonenter.com
+SC-00299,Delta Robotics,Tier 3,UK,4530777.49,2021-05-12,Services,5.21,False,procurement@deltarobotic.com
+SC-00300,Stratos Global,Tier 2,India,1378613.65,2020-10-25,Electronics,1.67,True,procurement@stratosgloba.com
+SC-00301,Ionic Materials,Tier 2,France,430760.74,2021-05-30,Logistics,7.21,False,procurement@ionicmateria.com
+SC-00302,Delphi Advisors,Tier 2,USA,720673.15,2020-01-14,Software,3.32,False,procurement@delphiadviso.com
+SC-00303,Sirius Retail,Tier 2,China,4086603.58,2023-08-26,Services,1.36,True,procurement@siriusretail.com
+SC-00304,Delphi Advisors,Tier 2,India,929304.49,2022-03-26,Raw Materials,2.91,False,procurement@delphiadviso.com
+SC-00305,Solace Systems,Tier 2,China,1437485.72,2022-03-15,Raw Materials,1.14,True,procurement@solacesystem.com
+SC-00306,Tempest Energy,Tier 3,France,2772990.83,2022-08-03,Logistics,4.38,True,procurement@tempestenerg.com
+SC-00307,Vertex Holdings,Tier 3,China,738936.66,2021-09-12,Logistics,2.53,True,procurement@vertexholdin.com
+SC-00308,SynapseAI,Tier 1,China,4953968.04,2022-09-08,Services,4.01,False,procurement@synapseai.com
+SC-00309,Forge Industries,Tier 2,Japan,4482732.5,2023-01-04,Services,6.38,True,procurement@forgeindustr.com
+SC-00310,Catalyst Group,Tier 3,Japan,1807293.66,2023-08-18,Services,0.44,False,procurement@catalystgrou.com
+SC-00311,Sirius Retail,Tier 1,USA,538102.46,2021-03-30,Services,7.47,True,procurement@siriusretail.com
+SC-00312,Cascade Biotech,Tier 2,China,3873094.05,2023-04-20,Services,1.51,True,procurement@cascadebiote.com
+SC-00313,Eclipse Trading,Tier 2,China,4606710.35,2020-06-24,Electronics,8.31,True,procurement@eclipsetradi.com
+SC-00314,Helios Media,Tier 2,China,3932136.49,2022-12-03,Software,3.48,True,procurement@heliosmedia.com
+SC-00315,Cascade Biotech,Tier 2,USA,1536307.21,2023-12-26,Electronics,0.23,True,procurement@cascadebiote.com
+SC-00316,Catalyst Group,Tier 3,Germany,2604169.81,2023-02-04,Logistics,3.31,False,procurement@catalystgrou.com
+SC-00317,Summit Resources,Tier 2,Japan,963036.29,2023-08-04,Software,3.96,True,procurement@summitresour.com
+SC-00318,Cascade Biotech,Tier 2,USA,3538441.3,2021-02-25,Raw Materials,7.52,True,procurement@cascadebiote.com
+SC-00319,Solace Systems,Tier 3,Germany,1860675.5,2021-02-07,Software,1.14,False,procurement@solacesystem.com
+SC-00320,Radiant Health,Tier 3,China,3075976.68,2023-04-17,Electronics,3.48,False,procurement@radianthealt.com
+SC-00321,Aether Networks,Tier 3,Japan,4013036.25,2023-06-12,Services,0.85,True,procurement@aethernetwor.com
+SC-00322,Indigo Capital,Tier 1,India,628897.07,2022-02-03,Logistics,5.11,False,procurement@indigocapita.com
+SC-00323,Delphi Advisors,Tier 3,China,2144041.97,2022-09-23,Services,6.93,True,procurement@delphiadviso.com
+SC-00324,Nimbus Cloud,Tier 2,India,744467.85,2021-10-06,Software,6.19,True,procurement@nimbuscloud.com
+SC-00325,ACME Corporation,Tier 1,Germany,4085318.91,2023-02-24,Services,6.53,False,procurement@acmecorporat.com
+SC-00326,Pulsar Electronics,Tier 3,France,2247066.13,2020-12-08,Electronics,5.65,True,procurement@pulsarelectr.com
+SC-00327,Atlas Freight LLC,Tier 2,Germany,2711162.66,2020-12-10,Software,5.66,False,procurement@atlasfreight.com
+SC-00328,Nimbus Cloud,Tier 3,USA,1376050.1,2023-01-17,Raw Materials,5.42,True,procurement@nimbuscloud.com
+SC-00329,Cascade Biotech,Tier 2,USA,3693144.05,2023-08-31,Logistics,2.98,True,procurement@cascadebiote.com
+SC-00330,Cascade Biotech,Tier 2,France,4092806.5,2022-06-18,Electronics,7.76,True,procurement@cascadebiote.com
+SC-00331,Solaris Energy,Tier 3,UK,3182214.62,2020-12-05,Services,1.39,True,procurement@solarisenerg.com
+SC-00332,Solaris Energy,Tier 3,India,2684789.95,2023-05-07,Services,1.68,True,procurement@solarisenerg.com
+SC-00333,Atlas Freight Co,Tier 2,France,2596354.19,2023-10-23,Electronics,1.36,False,procurement@atlasfreight.com
+SC-00334,Pinnacle Systems Ltd,Tier 3,Germany,3522061.31,2020-09-28,Logistics,1.46,True,procurement@pinnaclesyst.com
+SC-00335,Nova Logistics,Tier 2,Germany,2908256.37,2021-07-04,Software,3.75,True,procurement@novalogistic.com
+SC-00336,Horizon Enterprises,Tier 3,Japan,1427217.15,2022-01-25,Software,9.5,True,procurement@horizonenter.com
+SC-00337,Tempest Energy,Tier 3,USA,3668113.09,2022-07-27,Raw Materials,8.5,False,procurement@tempestenerg.com
+SC-00338,Solaris Energy,Tier 1,China,1379257.35,2021-08-03,Raw Materials,5.47,True,procurement@solarisenerg.com
+SC-00339,Solace Systems,Tier 2,Japan,3823157.41,2020-04-04,Electronics,6.26,False,procurement@solacesystem.com
+SC-00340,Global Tech Inc,Tier 1,China,2309764.77,2022-05-26,Logistics,9.96,True,procurement@globaltechin.com
+SC-00341,Cobalt Ventures,Tier 2,USA,3290210.42,2021-05-27,Electronics,3.72,True,procurement@cobaltventur.com
+SC-00342,Pinnacle Systems Ltd,Tier 3,India,3643642.4,2021-04-24,Software,6.55,True,procurement@pinnaclesyst.com
+SC-00343,Acme Corp,Tier 2,USA,706863.97,2021-04-08,Services,6.8,True,procurement@acmecorporat.com
+SC-00344,Acme Corp.,Tier 2,France,646939.24,2022-05-14,Logistics,4.78,True,procurement@acmecorporat.com
+SC-00345,Delta Robotics,Tier 3,France,557014.49,2021-10-03,Raw Materials,8.81,True,procurement@deltarobotic.com
+SC-00346,Delta Robotics,Tier 3,Japan,757122.68,2022-12-22,Services,0.08,True,procurement@deltarobotic.com
+SC-00347,Cascade Biotech,Tier 3,Germany,3158996.19,2020-11-06,Software,6.16,False,procurement@cascadebiote.com
+SC-00348,Solaris Energy,Tier 1,Germany,3774605.95,2023-04-22,Software,3.52,False,procurement@solarisenerg.com
+SC-00349,Indigo Capital,Tier 1,India,3240871.81,2021-05-23,Services,6.01,True,procurement@indigocapita.com
+SC-00350,Global Tech,Tier 2,Germany,2612858.18,2022-11-09,Logistics,7.48,True,procurement@globaltechin.com
+SC-00351,Pinnacle Sys,Tier 2,China,608081.13,2022-10-20,Services,0.71,True,procurement@pinnaclesyst.com
+SC-00352,Crest Financial,Tier 1,China,4311029.32,2023-03-10,Software,3.65,True,procurement@crestfinanci.com
+SC-00353,Eclipse Trading,Tier 1,UK,384286.22,2021-06-20,Logistics,0.4,True,procurement@eclipsetradi.com
+SC-00354,Prism Consulting,Tier 3,Japan,2530192.38,2022-04-30,Software,7.02,True,procurement@prismconsult.com
+SC-00355,Forge Industries,Tier 2,USA,1584039.08,2022-11-13,Logistics,9.74,True,procurement@forgeindustr.com
+SC-00356,Forge Industries,Tier 2,UK,3189756.52,2023-08-23,Electronics,3.1,False,procurement@forgeindustr.com
+SC-00357,Nova Logistics,Tier 1,USA,4626907.38,2020-08-25,Software,6.12,True,procurement@novalogistic.com
+SC-00358,Cobalt Ventures,Tier 1,USA,3554108.01,2023-12-07,Electronics,1.64,True,procurement@cobaltventur.com
+SC-00359,Radiant Health,Tier 1,India,678306.51,2021-07-04,Electronics,7.71,True,procurement@radianthealt.com
+SC-00360,Sirius Retail,Tier 2,UK,366166.35,2023-12-29,Services,6.28,False,procurement@siriusretail.com
+SC-00361,Summit Resources,Tier 1,China,4303830.92,2020-12-07,Raw Materials,1.57,True,procurement@summitresour.com
+SC-00362,Solace Systems,Tier 1,Japan,2568683.18,2020-03-31,Electronics,2.45,False,procurement@solacesystem.com
+SC-00363,Crest Financial,Tier 1,Germany,4659242.38,2020-03-13,Services,8.03,False,procurement@crestfinanci.com
+SC-00364,Titan Manufacturing Co,Tier 1,China,4583481.09,2021-10-17,Raw Materials,8.26,True,procurement@titanmanufac.com
+SC-00365,Meridian Corp,Tier 1,Germany,4031473.2,2020-04-04,Software,0.69,False,procurement@meridiancorp.com
+SC-00366,ATLAS Freight,Tier 2,USA,2787802.41,2020-01-17,Raw Materials,2.01,True,procurement@atlasfreight.com
+SC-00367,Aether Networks,Tier 2,India,2978870.13,2022-10-07,Logistics,7.32,True,procurement@aethernetwor.com
+SC-00368,Zenith Tech,Tier 2,USA,1203338.82,2021-12-10,Electronics,9.51,True,procurement@zenithtechno.com
+SC-00369,Delta Robotics,Tier 1,Germany,2672581.72,2021-05-02,Software,4.92,True,procurement@deltarobotic.com
+SC-00370,Zenith,Tier 2,USA,267306.32,2021-04-19,Services,4.13,True,procurement@zenithtechno.com
+SC-00371,Summit Resources,Tier 3,USA,2551867.43,2023-07-29,Software,0.75,True,procurement@summitresour.com
+SC-00372,Synapse Artificial Intelligence,Tier 1,Germany,1493796.32,2021-10-07,Software,7.01,True,procurement@synapseai.com
+SC-00373,Indigo Capital,Tier 2,Germany,419702.81,2021-02-19,Logistics,7.8,True,procurement@indigocapita.com
+SC-00374,Zenith Tech,Tier 1,China,2356972.81,2022-04-12,Electronics,5.36,True,procurement@zenithtechno.com
+SC-00375,Cascade Biotech,Tier 2,India,4269786.82,2020-07-04,Logistics,8.08,True,procurement@cascadebiote.com
+SC-00376,Delphi Advisors,Tier 1,France,4290037.69,2020-10-30,Electronics,7.11,True,procurement@delphiadviso.com
+SC-00377,Prism Consulting,Tier 3,India,1337825.62,2020-12-22,Electronics,9.52,False,procurement@prismconsult.com
+SC-00378,Nimbus Cloud,Tier 1,China,554441.38,2020-10-13,Electronics,0.12,True,procurement@nimbuscloud.com
+SC-00379,Apex Ind.,Tier 2,India,3447112.05,2023-08-13,Electronics,5.82,True,procurement@apexindustri.com
+SC-00380,Vertex Holdings,Tier 1,Germany,4517355.61,2022-06-27,Logistics,0.92,True,procurement@vertexholdin.com
+SC-00381,Meridian Corp,Tier 2,USA,881546.58,2023-03-21,Software,8.22,False,procurement@meridiancorp.com
+SC-00382,Pulsar Electronics,Tier 2,Japan,2161986.89,2021-12-25,Logistics,9.08,True,procurement@pulsarelectr.com
+SC-00383,Stellar Pharma,Tier 1,USA,3089827.56,2023-06-17,Logistics,6.47,False,procurement@stellarpharm.com
+SC-00384,Ionic Materials,Tier 1,USA,1434891.14,2020-10-08,Software,1.99,True,procurement@ionicmateria.com
+SC-00385,Forge Industries,Tier 2,France,3581184.81,2022-09-09,Services,7.81,True,procurement@forgeindustr.com
+SC-00386,Solace Systems,Tier 2,India,940088.57,2021-10-15,Services,2.19,True,procurement@solacesystem.com
+SC-00387,Pinnacle Systems Ltd,Tier 3,India,3845868.73,2021-04-21,Logistics,1.0,True,procurement@pinnaclesyst.com
+SC-00388,Stellar Pharma,Tier 1,UK,4240200.2,2022-03-06,Raw Materials,9.35,True,procurement@stellarpharm.com
+SC-00389,Orion Dynamics,Tier 3,India,4040740.62,2023-11-29,Raw Materials,9.14,True,procurement@oriondynamic.com
+SC-00390,Helios Media,Tier 3,Germany,4191649.36,2022-10-05,Services,3.09,False,procurement@heliosmedia.com
+SC-00391,NexGen Solution,Tier 1,Germany,3028230.79,2020-02-10,Services,4.78,True,procurement@nexgensoluti.com
+SC-00392,Aether Networks,Tier 1,India,3598841.28,2021-10-24,Electronics,0.22,True,procurement@aethernetwor.com
+SC-00393,Meridian Corp,Tier 1,India,3537463.15,2023-09-18,Software,5.86,True,procurement@meridiancorp.com
+SC-00394,Cobalt Ventures,Tier 1,Germany,3675142.53,2022-06-13,Software,6.49,True,procurement@cobaltventur.com
+SC-00395,Nimbus Cloud,Tier 1,Japan,2965303.27,2020-12-25,Software,3.07,True,procurement@nimbuscloud.com
+SC-00396,Apex Ind.,Tier 3,USA,4746501.12,2023-03-19,Software,8.51,True,procurement@apexindustri.com
+SC-00397,Orion Dynamics,Tier 3,Germany,3216251.53,2020-08-01,Software,1.41,True,procurement@oriondynamic.com
+SC-00398,Nova Logistics,Tier 2,Germany,3199124.51,2020-06-30,Raw Materials,4.47,True,procurement@novalogistic.com
+SC-00399,Solaris Energy,Tier 3,USA,1784881.75,2020-08-09,Electronics,0.48,False,procurement@solarisenerg.com
+SC-00400,Ionic Materials,Tier 2,China,4414764.76,2021-12-20,Services,3.75,False,procurement@ionicmateria.com
+SC-00401,Solace Systems,Tier 1,China,414861.48,2020-03-09,Raw Materials,0.2,True,procurement@solacesystem.com
+SC-00402,Catalyst Group,Tier 2,Germany,4445259.78,2020-11-25,Electronics,5.47,True,procurement@catalystgrou.com
+SC-00403,Sirius Retail,Tier 3,USA,2185050.5,2023-08-31,Logistics,6.07,False,procurement@siriusretail.com
+SC-00404,Stratos Global,Tier 1,India,1067474.86,2021-01-24,Software,6.97,True,procurement@stratosgloba.com
+SC-00405,ATLAS Freight,Tier 1,USA,295695.44,2023-03-16,Services,8.4,True,procurement@atlasfreight.com
+SC-00406,Pinnacle Systems Ltd,Tier 1,China,483760.38,2023-09-17,Services,4.8,True,procurement@pinnaclesyst.com
+SC-00407,Global Tech Inc,Tier 1,Japan,1494466.76,2020-06-16,Software,8.44,True,procurement@globaltechin.com
+SC-00408,Prism Consulting,Tier 2,Japan,1361771.77,2023-08-07,Services,3.88,True,procurement@prismconsult.com
+SC-00409,Delta Robotics,Tier 1,China,270853.78,2022-06-19,Software,2.63,True,procurement@deltarobotic.com
+SC-00410,Solace Systems,Tier 1,France,3497531.21,2020-07-17,Electronics,6.68,False,procurement@solacesystem.com
+SC-00411,Tempest Energy,Tier 3,USA,4211945.97,2022-12-06,Software,9.66,False,procurement@tempestenerg.com
+SC-00412,Solace Systems,Tier 2,India,440827.5,2020-03-12,Services,5.71,True,procurement@solacesystem.com
+SC-00413,Meridian Corp,Tier 1,Germany,4862216.15,2021-01-29,Logistics,0.43,True,procurement@meridiancorp.com
+SC-00414,Synapse A.I.,Tier 3,Germany,4178835.19,2021-06-12,Raw Materials,9.11,True,procurement@synapseai.com
+SC-00415,Horizon Enterprises,Tier 3,China,2782668.25,2021-07-19,Services,4.58,True,procurement@horizonenter.com
+SC-00416,Aether Networks,Tier 1,China,790729.48,2023-03-06,Services,5.83,True,procurement@aethernetwor.com
+SC-00417,Catalyst Group,Tier 2,France,2701385.73,2021-12-05,Software,2.64,False,procurement@catalystgrou.com
+SC-00418,Solace Systems,Tier 1,Germany,1413300.0,2020-10-21,Services,6.09,False,procurement@solacesystem.com
+SC-00419,Next Gen Solutions,Tier 2,Japan,1226017.5,2022-08-31,Raw Materials,8.97,True,procurement@nexgensoluti.com
+SC-00420,Sirius Retail,Tier 2,India,4222090.51,2023-11-26,Electronics,9.72,True,procurement@siriusretail.com
+SC-00421,APEX Industries,Tier 3,China,3881452.96,2021-10-19,Raw Materials,7.29,True,procurement@apexindustri.com
+SC-00422,Vanguard Networks,Tier 1,France,2065493.29,2022-09-19,Services,8.67,True,procurement@vanguardnetw.com
+SC-00423,Vertex Capital,Tier 1,India,3562368.52,2022-04-06,Logistics,7.81,True,procurement@vertexcapita.com
+SC-00424,Orion Dynamics,Tier 1,France,335256.2,2020-03-08,Software,0.51,True,procurement@oriondynamic.com
+SC-00425,Vanguard Networks,Tier 2,France,2347881.4,2022-03-23,Electronics,6.81,True,procurement@vanguardnetw.com
+SC-00426,Crest Financial,Tier 3,China,929039.29,2022-08-29,Services,5.51,True,procurement@crestfinanci.com
+SC-00427,Stratos Global,Tier 3,France,3459810.16,2021-08-06,Electronics,3.87,True,procurement@stratosgloba.com
+SC-00428,Solace Systems,Tier 1,Japan,1164304.6,2021-02-27,Raw Materials,6.52,True,procurement@solacesystem.com
+SC-00429,ACME Corporation,Tier 1,Japan,907343.25,2020-01-18,Logistics,2.52,True,procurement@acmecorporat.com
+SC-00430,Stellar Pharma,Tier 2,France,1776110.54,2021-05-31,Logistics,4.67,False,procurement@stellarpharm.com
+SC-00431,Tempest Energy,Tier 1,UK,4997175.43,2022-02-05,Services,6.47,True,procurement@tempestenerg.com
+SC-00432,Cobalt Ventures,Tier 2,USA,1714604.09,2021-07-20,Raw Materials,8.61,True,procurement@cobaltventur.com
+SC-00433,Cobalt Ventures,Tier 1,UK,3839098.22,2020-04-26,Services,4.04,True,procurement@cobaltventur.com
+SC-00434,Apex Industries LLC,Tier 1,Japan,2511995.5,2021-08-28,Raw Materials,9.07,False,procurement@apexindustri.com
+SC-00435,Delta Robotics,Tier 3,Japan,4974030.96,2021-01-23,Raw Materials,7.27,True,procurement@deltarobotic.com
+SC-00436,Forge Industries,Tier 3,India,2561208.54,2020-12-14,Services,1.81,True,procurement@forgeindustr.com
+SC-00437,Eclipse Trading,Tier 3,India,3639673.85,2023-02-18,Logistics,9.47,True,procurement@eclipsetradi.com
+SC-00438,Horizon Enterprises,Tier 2,Germany,3733839.15,2021-09-20,Software,7.88,True,procurement@horizonenter.com
+SC-00439,Crest Financial,Tier 3,India,2345615.11,2020-08-29,Software,0.54,True,procurement@crestfinanci.com
+SC-00440,Eclipse Trading,Tier 3,USA,4344113.89,2022-02-20,Services,2.98,True,procurement@eclipsetradi.com
+SC-00441,Zenith Tech,Tier 1,India,2075499.64,2023-03-12,Software,1.43,True,procurement@zenithtechno.com
+SC-00442,Horizon Enterprises,Tier 2,Japan,4933869.84,2021-10-03,Electronics,0.05,True,procurement@horizonenter.com
+SC-00443,Solaris Energy,Tier 3,France,834253.83,2020-06-29,Logistics,6.14,False,procurement@solarisenerg.com
+SC-00444,Prism Consulting,Tier 2,China,73112.23,2022-12-29,Logistics,7.31,True,procurement@prismconsult.com
+SC-00445,Indigo Capital,Tier 1,Japan,70412.98,2021-05-24,Logistics,6.94,True,procurement@indigocapita.com
+SC-00446,Cobalt Ventures,Tier 1,China,2541515.57,2021-09-18,Logistics,0.65,True,procurement@cobaltventur.com
+SC-00447,Cobalt Ventures,Tier 2,Japan,2625427.64,2022-12-09,Raw Materials,4.34,True,procurement@cobaltventur.com
+SC-00448,Sirius Retail,Tier 2,France,982708.87,2022-04-06,Electronics,2.28,True,procurement@siriusretail.com
+SC-00449,Solaris Energy,Tier 3,UK,886474.47,2022-01-20,Electronics,3.75,True,procurement@solarisenerg.com
+SC-00450,Forge Industries,Tier 3,USA,3326751.08,2023-08-31,Electronics,0.48,True,procurement@forgeindustr.com
+SC-00451,Ionic Materials,Tier 2,USA,2759047.8,2022-08-29,Logistics,2.05,True,procurement@ionicmateria.com
+SC-00452,Cobalt Ventures,Tier 3,USA,3329290.68,2021-07-06,Services,6.06,True,procurement@cobaltventur.com
+SC-00453,Ionic Materials,Tier 3,Japan,3107604.88,2021-08-01,Electronics,7.85,False,procurement@ionicmateria.com
+SC-00454,Vanguard Networks,Tier 2,France,2639573.23,2021-02-17,Raw Materials,7.03,True,procurement@vanguardnetw.com
+SC-00455,Stratos Global,Tier 3,China,4556265.31,2023-11-10,Software,3.31,True,procurement@stratosgloba.com
+SC-00456,Acme Corp.,Tier 1,USA,4184399.22,2023-10-02,Software,1.49,True,procurement@acmecorporat.com
+SC-00457,Vertex Capital,Tier 3,Japan,551387.87,2021-06-08,Logistics,4.57,True,procurement@vertexcapita.com
+SC-00458,Quantum Analytics Inc,Tier 1,USA,4075233.15,2020-03-21,Raw Materials,3.6,True,procurement@quantumanaly.com
+SC-00459,Synapse Artificial Intelligence,Tier 1,USA,4263667.21,2020-04-03,Electronics,8.52,True,procurement@synapseai.com
+SC-00460,Sirius Retail,Tier 2,UK,1378131.52,2020-07-09,Raw Materials,8.15,True,procurement@siriusretail.com
+SC-00461,Meridian Corp,Tier 2,China,1395573.8,2022-02-28,Software,8.0,True,procurement@meridiancorp.com
+SC-00462,Meridian Corp,Tier 3,Japan,340299.66,2020-11-22,Electronics,4.16,False,procurement@meridiancorp.com
+SC-00463,Solace Systems,Tier 1,UK,1929766.36,2022-01-04,Services,0.29,True,procurement@solacesystem.com
+SC-00464,Eclipse Trading,Tier 1,China,2231405.01,2020-05-09,Raw Materials,6.55,True,procurement@eclipsetradi.com
+SC-00465,Radiant Health,Tier 3,France,1724588.18,2022-12-07,Services,0.95,True,procurement@radianthealt.com
+SC-00466,Eclipse Trading,Tier 3,Japan,3224952.04,2020-10-31,Services,8.92,True,procurement@eclipsetradi.com
+SC-00467,Acme Corp.,Tier 1,UK,4251785.6,2022-10-12,Logistics,0.75,False,procurement@acmecorporat.com
+SC-00468,Indigo Capital,Tier 2,India,299236.04,2021-04-01,Services,6.43,False,procurement@indigocapita.com
+SC-00469,Nova Logistics,Tier 2,China,4016243.37,2022-07-06,Electronics,8.57,False,procurement@novalogistic.com
+SC-00470,Indigo Capital,Tier 2,Japan,3284196.37,2020-07-29,Software,4.12,True,procurement@indigocapita.com
+SC-00471,Horizon Enterprises,Tier 3,UK,1073913.68,2023-10-07,Software,9.5,True,procurement@horizonenter.com
+SC-00472,Pinnacle Sys,Tier 2,India,2822746.68,2023-06-23,Services,4.73,True,procurement@pinnaclesyst.com
+SC-00473,Cascade Biotech,Tier 1,France,3311605.76,2020-01-05,Raw Materials,3.55,True,procurement@cascadebiote.com
+SC-00474,Nimbus Cloud,Tier 3,USA,276601.64,2020-12-02,Software,1.4,False,procurement@nimbuscloud.com
+SC-00475,Catalyst Group,Tier 3,Germany,978339.83,2022-03-15,Logistics,4.57,True,procurement@catalystgrou.com
+SC-00476,Sirius Retail,Tier 2,USA,4636801.33,2023-10-08,Services,1.23,False,procurement@siriusretail.com
+SC-00477,Summit Resources,Tier 2,USA,2675303.52,2020-04-09,Services,9.35,False,procurement@summitresour.com
+SC-00478,Vertex Capital,Tier 3,UK,909568.84,2020-09-19,Electronics,3.87,True,procurement@vertexcapita.com
+SC-00479,Vertex Capital,Tier 2,UK,4583755.7,2021-05-23,Raw Materials,3.98,True,procurement@vertexcapita.com
+SC-00480,ATLAS Freight,Tier 1,Germany,2093090.09,2023-12-04,Services,2.99,True,procurement@atlasfreight.com
+SC-00481,Nimbus Cloud,Tier 1,Germany,3139629.57,2021-08-18,Raw Materials,9.21,True,procurement@nimbuscloud.com
+SC-00482,Orion Dynamics,Tier 3,USA,3815836.37,2023-02-25,Software,5.83,False,procurement@oriondynamic.com
+SC-00483,Forge Industries,Tier 2,France,113214.05,2020-08-06,Electronics,3.81,True,procurement@forgeindustr.com
+SC-00484,Pinnacle Sys,Tier 2,France,3938384.35,2021-08-09,Raw Materials,1.46,True,procurement@pinnaclesyst.com
+SC-00485,Atlas Freight LLC,Tier 3,USA,1825478.06,2022-07-15,Electronics,6.16,True,procurement@atlasfreight.com
+SC-00486,Nimbus Cloud,Tier 1,UK,3932320.51,2023-11-26,Raw Materials,6.93,True,procurement@nimbuscloud.com
+SC-00487,Delta Robotics,Tier 2,France,4880322.47,2021-10-02,Services,0.54,True,procurement@deltarobotic.com
+SC-00488,Vanguard Networks,Tier 1,Japan,3537913.89,2023-08-19,Raw Materials,7.55,True,procurement@vanguardnetw.com
+SC-00489,Vanguard Networks,Tier 2,Germany,4918093.95,2020-06-01,Logistics,9.62,True,procurement@vanguardnetw.com
+SC-00490,Delta Robotics,Tier 2,India,2805163.17,2020-09-23,Logistics,5.84,True,procurement@deltarobotic.com
+SC-00491,ACME Corporation,Tier 2,Japan,4690597.53,2020-03-22,Logistics,9.29,True,procurement@acmecorporat.com
+SC-00492,Aether Networks,Tier 2,France,2884751.1,2022-01-03,Electronics,7.84,True,procurement@aethernetwor.com
+SC-00493,Radiant Health,Tier 1,UK,387473.52,2022-10-31,Logistics,4.16,False,procurement@radianthealt.com
+SC-00494,Horizon Enterprises,Tier 1,Germany,3333505.66,2021-11-09,Raw Materials,2.94,False,procurement@horizonenter.com
+SC-00495,Nimbus Cloud,Tier 1,Japan,1762736.09,2021-05-07,Services,9.19,True,procurement@nimbuscloud.com
+SC-00496,NexGen,Tier 2,China,4583865.53,2020-08-20,Software,2.57,True,procurement@nexgensoluti.com
+SC-00497,Global Tech,Tier 2,UK,4023942.85,2022-07-01,Software,0.44,True,procurement@globaltechin.com
+SC-00498,Indigo Capital,Tier 1,Germany,4859562.41,2023-01-06,Services,0.07,True,procurement@indigocapita.com
+SC-00499,Solaris Energy,Tier 3,China,4186542.13,2021-02-25,Services,8.29,False,procurement@solarisenerg.com
+SC-00500,Vertex Holdings,Tier 1,China,3598498.0,2020-03-18,Electronics,0.73,True,procurement@vertexholdin.com
+SC-00501,Quantum,Tier 1,UK,4117015.63,2021-06-13,Software,3.88,False,procurement@quantumanaly.com
+SC-00502,SynapseAI,Tier 1,China,3382828.73,2022-12-31,Electronics,6.41,True,procurement@synapseai.com
+SC-00503,Tempest Energy,Tier 3,France,409317.75,2022-10-26,Electronics,2.9,True,procurement@tempestenerg.com
+SC-00504,Delphi Advisors,Tier 2,France,4637119.85,2022-02-20,Software,8.22,True,procurement@delphiadviso.com
+SC-00505,Eclipse Trading,Tier 3,Germany,725088.23,2022-03-11,Services,2.95,True,procurement@eclipsetradi.com
+SC-00506,Cobalt Ventures,Tier 1,UK,4380096.29,2020-10-16,Electronics,0.42,False,procurement@cobaltventur.com
+SC-00507,Forge Industries,Tier 2,Germany,3754068.1,2021-12-05,Logistics,4.13,True,procurement@forgeindustr.com
+SC-00508,Stratos Global,Tier 1,UK,4182004.42,2021-02-01,Electronics,1.81,True,procurement@stratosgloba.com
+SC-00509,Nimbus Cloud,Tier 3,UK,412065.63,2023-10-07,Electronics,2.51,True,procurement@nimbuscloud.com
+SC-00510,Tempest Energy,Tier 2,India,684664.98,2023-09-04,Logistics,1.0,True,procurement@tempestenerg.com
+SC-00511,Vanguard Networks,Tier 2,China,1675313.09,2023-09-12,Raw Materials,6.93,True,procurement@vanguardnetw.com
+SC-00512,Solace Systems,Tier 2,China,884765.58,2021-10-03,Logistics,7.86,False,procurement@solacesystem.com
+SC-00513,Stellar Pharma,Tier 1,Japan,3678215.34,2022-09-09,Software,4.45,True,procurement@stellarpharm.com
+SC-00514,Pulsar Electronics,Tier 1,Japan,3052806.95,2021-07-28,Logistics,8.91,True,procurement@pulsarelectr.com
+SC-00515,Quantum,Tier 3,USA,3650755.57,2020-02-08,Services,6.32,False,procurement@quantumanaly.com
+SC-00516,Tempest Energy,Tier 1,UK,1340050.79,2023-01-10,Software,6.54,True,procurement@tempestenerg.com
+SC-00517,Crest Financial,Tier 1,France,2968523.74,2021-08-18,Logistics,4.65,True,procurement@crestfinanci.com
+SC-00518,Prism Consulting,Tier 3,USA,3330258.52,2023-06-11,Logistics,7.57,True,procurement@prismconsult.com
+SC-00519,Cascade Biotech,Tier 1,UK,4746123.57,2023-09-12,Logistics,7.36,False,procurement@cascadebiote.com
+SC-00520,Helios Media,Tier 1,France,2463828.63,2020-05-08,Raw Materials,3.69,True,procurement@heliosmedia.com
+SC-00521,Solaris Energy,Tier 2,China,4593614.62,2020-04-05,Electronics,9.81,True,procurement@solarisenerg.com
+SC-00522,Catalyst Group,Tier 3,India,2914225.6,2023-03-13,Logistics,3.77,False,procurement@catalystgrou.com
+SC-00523,Crest Financial,Tier 3,India,1912827.47,2021-04-01,Services,4.06,True,procurement@crestfinanci.com
+SC-00524,Pulsar Electronics,Tier 3,USA,2534093.07,2020-10-11,Software,1.66,True,procurement@pulsarelectr.com
+SC-00525,Vertex Capital,Tier 1,Germany,975183.1,2022-01-11,Services,7.17,True,procurement@vertexcapita.com
+SC-00526,Titan Manufacturing Co,Tier 2,Japan,611026.55,2023-10-14,Software,4.79,True,procurement@titanmanufac.com
+SC-00527,Ionic Materials,Tier 1,USA,683031.32,2023-04-28,Logistics,1.35,True,procurement@ionicmateria.com
+SC-00528,Solace Systems,Tier 1,Germany,1328385.25,2021-01-03,Services,9.58,True,procurement@solacesystem.com
+SC-00529,Atlas Freight LLC,Tier 1,China,3052303.19,2022-08-23,Software,1.71,False,procurement@atlasfreight.com
+SC-00530,Delphi Advisors,Tier 3,France,3849076.06,2023-06-30,Services,2.65,True,procurement@delphiadviso.com
+SC-00531,Summit Resources,Tier 1,China,1958036.32,2020-08-10,Electronics,2.02,False,procurement@summitresour.com
+SC-00532,Zenith,Tier 1,Germany,2405552.47,2023-06-13,Services,0.39,True,procurement@zenithtechno.com
+SC-00533,Horizon Enterprises,Tier 3,Germany,4514824.54,2023-01-09,Electronics,8.97,False,procurement@horizonenter.com
+SC-00534,Radiant Health,Tier 2,France,265019.5,2022-12-21,Software,2.29,False,procurement@radianthealt.com
+SC-00535,Delta Robotics,Tier 3,France,3719900.51,2023-11-27,Services,0.98,True,procurement@deltarobotic.com
+SC-00536,Quantum Analytics Inc,Tier 1,France,464897.03,2023-05-10,Services,4.09,True,procurement@quantumanaly.com
+SC-00537,Acme Corp.,Tier 3,France,85214.69,2022-12-06,Electronics,5.2,False,procurement@acmecorporat.com
+SC-00538,Solaris Energy,Tier 2,India,577586.92,2022-05-22,Services,2.54,False,procurement@solarisenerg.com
+SC-00539,Solace Systems,Tier 3,India,4959403.44,2022-03-24,Logistics,4.13,False,procurement@solacesystem.com
+SC-00540,Orion Dynamics,Tier 3,UK,2444612.78,2021-09-20,Services,3.44,False,procurement@oriondynamic.com
+SC-00541,Apex Industries LLC,Tier 1,Japan,1187367.96,2023-12-03,Logistics,1.0,False,procurement@apexindustri.com
+SC-00542,Sirius Retail,Tier 1,China,4824622.74,2020-01-11,Electronics,8.23,False,procurement@siriusretail.com
+SC-00543,Delphi Advisors,Tier 1,USA,1352305.39,2022-01-29,Electronics,6.09,False,procurement@delphiadviso.com
+SC-00544,Prism Consulting,Tier 3,UK,334442.02,2020-12-24,Software,4.39,True,procurement@prismconsult.com
+SC-00545,Radiant Health,Tier 1,USA,3930599.25,2022-11-11,Services,6.98,True,procurement@radianthealt.com
+SC-00546,Next Gen Solutions,Tier 1,Japan,51422.0,2020-11-18,Electronics,9.97,False,procurement@nexgensoluti.com
+SC-00547,Helios Media,Tier 2,UK,1041536.4,2020-02-01,Electronics,9.19,True,procurement@heliosmedia.com
+SC-00548,Nimbus Cloud,Tier 2,France,1418713.85,2023-05-26,Logistics,4.55,False,procurement@nimbuscloud.com
+SC-00549,Solace Systems,Tier 2,Germany,2065316.4,2020-08-06,Services,0.72,True,procurement@solacesystem.com
+SC-00550,Sirius Retail,Tier 3,India,4386759.58,2023-03-23,Raw Materials,6.94,False,procurement@siriusretail.com
+SC-00551,Solace Systems,Tier 1,France,1731320.78,2022-07-28,Software,8.97,True,procurement@solacesystem.com
+SC-00552,Eclipse Trading,Tier 2,USA,1944232.57,2021-03-27,Logistics,8.0,False,procurement@eclipsetradi.com
+SC-00553,Helios Media,Tier 3,France,1353580.97,2021-08-11,Electronics,3.99,True,procurement@heliosmedia.com
+SC-00554,Vertex Holdings,Tier 2,India,1800012.73,2023-03-20,Raw Materials,1.83,True,procurement@vertexholdin.com
+SC-00555,Pulsar Electronics,Tier 1,Japan,1248179.76,2021-06-27,Logistics,2.29,True,procurement@pulsarelectr.com
+SC-00556,Aether Networks,Tier 1,France,578111.99,2020-06-09,Software,6.14,True,procurement@aethernetwor.com
+SC-00557,Eclipse Trading,Tier 3,India,2487084.87,2023-03-22,Raw Materials,4.91,True,procurement@eclipsetradi.com
+SC-00558,Prism Consulting,Tier 3,Germany,318033.45,2022-05-16,Software,9.4,True,procurement@prismconsult.com
+SC-00559,Vertex Capital,Tier 2,France,3447376.3,2020-12-23,Software,9.77,False,procurement@vertexcapita.com
+SC-00560,Indigo Capital,Tier 1,Japan,1093224.31,2023-04-04,Electronics,3.25,True,procurement@indigocapita.com
+SC-00561,Orion Dynamics,Tier 1,India,2383159.56,2023-06-09,Raw Materials,3.66,False,procurement@oriondynamic.com
+SC-00562,Synapse A.I.,Tier 2,Japan,3773369.03,2022-01-17,Software,2.8,True,procurement@synapseai.com
+SC-00563,Solace Systems,Tier 3,Japan,1181405.41,2020-07-23,Raw Materials,8.04,False,procurement@solacesystem.com
+SC-00564,Delta Robotics,Tier 1,France,4797782.21,2020-11-02,Software,8.06,True,procurement@deltarobotic.com
+SC-00565,Ionic Materials,Tier 1,France,3171727.32,2022-12-29,Raw Materials,7.85,True,procurement@ionicmateria.com
+SC-00566,Quantum,Tier 3,USA,2022089.41,2023-11-15,Logistics,0.6,True,procurement@quantumanaly.com
+SC-00567,Eclipse Trading,Tier 2,Japan,1706549.87,2022-01-09,Raw Materials,5.6,True,procurement@eclipsetradi.com
+SC-00568,Helios Media,Tier 2,USA,1787897.92,2023-10-23,Services,1.99,True,procurement@heliosmedia.com
+SC-00569,ATLAS Freight,Tier 2,Japan,2576700.4,2022-07-04,Electronics,3.81,True,procurement@atlasfreight.com
+SC-00570,Summit Resources,Tier 1,Japan,4048199.86,2021-11-21,Software,6.31,False,procurement@summitresour.com
+SC-00571,Vertex Holdings,Tier 1,India,1179678.8,2021-10-10,Raw Materials,7.1,False,procurement@vertexholdin.com
+SC-00572,Stellar Pharma,Tier 2,Japan,2955252.88,2022-07-11,Software,1.67,True,procurement@stellarpharm.com
+SC-00573,Apex Industries LLC,Tier 1,Japan,1295652.7,2023-12-06,Electronics,2.11,False,procurement@apexindustri.com
+SC-00574,Catalyst Group,Tier 1,China,2764747.03,2020-02-23,Software,5.24,True,procurement@catalystgrou.com
+SC-00575,Catalyst Group,Tier 3,Germany,467340.77,2022-03-09,Raw Materials,2.29,True,procurement@catalystgrou.com
+SC-00576,Cascade Biotech,Tier 1,UK,4200663.01,2020-02-28,Electronics,6.64,True,procurement@cascadebiote.com
+SC-00577,Eclipse Trading,Tier 3,India,2765299.11,2020-10-03,Services,1.77,False,procurement@eclipsetradi.com
+SC-00578,Solace Systems,Tier 3,Japan,3215664.83,2021-09-26,Raw Materials,4.82,True,procurement@solacesystem.com
+SC-00579,Horizon Enterprises,Tier 2,India,2090408.84,2020-11-14,Raw Materials,0.11,True,procurement@horizonenter.com
+SC-00580,Helios Media,Tier 2,UK,91169.7,2022-10-04,Software,3.0,False,procurement@heliosmedia.com
+SC-00581,Atlas Freight Co,Tier 1,France,85729.03,2022-02-04,Logistics,4.12,False,procurement@atlasfreight.com
+SC-00582,Prism Consulting,Tier 1,Japan,3698733.38,2022-03-09,Software,2.21,True,procurement@prismconsult.com
+SC-00583,Synapse Artificial Intelligence,Tier 1,UK,3834464.56,2023-06-09,Raw Materials,2.85,True,procurement@synapseai.com
+SC-00584,Ionic Materials,Tier 1,Germany,726288.96,2020-08-14,Software,6.18,True,procurement@ionicmateria.com
+SC-00585,Aether Networks,Tier 1,India,146007.22,2020-04-11,Services,0.22,True,procurement@aethernetwor.com
+SC-00586,ATLAS Freight,Tier 1,Japan,2220162.35,2020-01-17,Logistics,0.9,True,procurement@atlasfreight.com
+SC-00587,Pulsar Electronics,Tier 2,China,1592304.59,2022-10-17,Raw Materials,4.64,True,procurement@pulsarelectr.com
+SC-00588,Sirius Retail,Tier 1,USA,1369192.71,2022-03-14,Electronics,5.43,True,procurement@siriusretail.com
+SC-00589,Vanguard Networks,Tier 2,France,112446.67,2021-05-24,Software,7.71,False,procurement@vanguardnetw.com
+SC-00590,Nova Logistics,Tier 1,China,3689847.76,2020-07-11,Services,6.66,True,procurement@novalogistic.com
+SC-00591,Eclipse Trading,Tier 3,India,4684265.47,2020-11-20,Electronics,7.45,True,procurement@eclipsetradi.com
+SC-00592,Quantum Analytics Inc,Tier 3,India,1033681.98,2020-04-16,Logistics,9.73,True,procurement@quantumanaly.com
+SC-00593,SynapseAI,Tier 1,Germany,3982232.47,2023-04-12,Electronics,3.96,True,procurement@synapseai.com
+SC-00594,Acme Corp,Tier 3,France,3469219.5,2023-11-10,Services,1.55,True,procurement@acmecorporat.com
+SC-00595,Nova Logistics,Tier 2,USA,3445425.99,2021-11-24,Electronics,0.6,True,procurement@novalogistic.com
+SC-00596,Forge Industries,Tier 1,China,1201739.42,2023-02-17,Raw Materials,8.06,False,procurement@forgeindustr.com
+SC-00597,Vanguard Networks,Tier 3,China,1822929.11,2020-10-02,Raw Materials,8.99,False,procurement@vanguardnetw.com
+SC-00598,Cascade Biotech,Tier 3,Japan,2475955.38,2023-03-06,Logistics,5.44,True,procurement@cascadebiote.com
+SC-00599,Summit Resources,Tier 3,France,2794875.54,2020-05-21,Services,1.55,True,procurement@summitresour.com
+SC-00600,Quantum,Tier 2,China,53563.15,2023-07-30,Services,3.79,True,procurement@quantumanaly.com
+SC-00601,Global Tech,Tier 2,France,3119976.7,2021-10-18,Electronics,6.58,False,procurement@globaltechin.com
+SC-00602,Vanguard Networks,Tier 3,Germany,3084544.25,2021-10-22,Software,6.41,True,procurement@vanguardnetw.com
+SC-00603,Catalyst Group,Tier 1,France,4692107.71,2020-12-31,Electronics,2.02,False,procurement@catalystgrou.com
+SC-00604,Vanguard Networks,Tier 1,UK,3226670.76,2022-03-06,Software,5.26,True,procurement@vanguardnetw.com
+SC-00605,Pinnacle Systems Ltd,Tier 1,UK,3603333.71,2020-01-27,Logistics,6.56,True,procurement@pinnaclesyst.com
+SC-00606,Summit Resources,Tier 2,UK,3730213.33,2022-05-01,Raw Materials,7.94,True,procurement@summitresour.com
+SC-00607,Aether Networks,Tier 3,USA,3684786.67,2021-09-14,Electronics,9.45,True,procurement@aethernetwor.com
+SC-00608,Catalyst Group,Tier 3,China,987829.04,2022-12-13,Logistics,5.7,True,procurement@catalystgrou.com
+SC-00609,Nimbus Cloud,Tier 3,USA,3843102.93,2023-03-26,Raw Materials,6.74,False,procurement@nimbuscloud.com
+SC-00610,Catalyst Group,Tier 1,UK,2037708.01,2021-11-22,Logistics,5.34,False,procurement@catalystgrou.com
+SC-00611,Helios Media,Tier 3,India,4232027.37,2022-04-24,Software,8.26,True,procurement@heliosmedia.com
+SC-00612,Delphi Advisors,Tier 3,UK,1108944.27,2023-01-31,Raw Materials,3.6,False,procurement@delphiadviso.com
+SC-00613,Cascade Biotech,Tier 1,Japan,221581.37,2021-08-05,Services,0.16,True,procurement@cascadebiote.com
+SC-00614,Cobalt Ventures,Tier 2,Germany,1113372.92,2021-10-06,Electronics,7.72,True,procurement@cobaltventur.com
+SC-00615,Nimbus Cloud,Tier 1,USA,2328830.54,2020-11-15,Logistics,2.65,True,procurement@nimbuscloud.com
+SC-00616,Titan Manufacturing Co,Tier 2,USA,2873911.44,2023-03-11,Logistics,7.34,True,procurement@titanmanufac.com
+SC-00617,Eclipse Trading,Tier 2,France,4500169.28,2023-12-10,Services,8.2,True,procurement@eclipsetradi.com
+SC-00618,Delphi Advisors,Tier 1,Japan,4051288.8,2022-02-20,Electronics,7.8,True,procurement@delphiadviso.com
+SC-00619,Helios Media,Tier 2,France,646675.62,2021-04-09,Services,9.29,False,procurement@heliosmedia.com
+SC-00620,Pinnacle Systems Ltd,Tier 3,USA,1630616.87,2023-03-02,Logistics,3.27,True,procurement@pinnaclesyst.com
+SC-00621,Zenith Tech,Tier 3,Japan,4986968.15,2022-07-01,Services,5.75,True,procurement@zenithtechno.com
+SC-00622,Titan Manufacturing Co,Tier 2,France,2001895.9,2020-09-27,Raw Materials,0.83,True,procurement@titanmanufac.com
+SC-00623,Nimbus Cloud,Tier 2,USA,2022708.83,2022-06-08,Logistics,7.62,False,procurement@nimbuscloud.com
+SC-00624,Nimbus Cloud,Tier 2,China,3278629.77,2021-02-05,Services,6.16,True,procurement@nimbuscloud.com
+SC-00625,Nova Logistics,Tier 2,France,2178825.37,2023-11-03,Services,0.9,False,procurement@novalogistic.com
+SC-00626,SynapseAI,Tier 2,Germany,1637654.9,2023-05-01,Electronics,7.7,True,procurement@synapseai.com
+SC-00627,Helios Media,Tier 3,Germany,2230293.95,2021-04-23,Logistics,6.85,True,procurement@heliosmedia.com
+SC-00628,Horizon Enterprises,Tier 3,USA,1253089.13,2023-06-25,Logistics,8.69,True,procurement@horizonenter.com
+SC-00629,ACME Corporation,Tier 3,France,600826.06,2022-07-10,Software,0.23,True,procurement@acmecorporat.com
+SC-00630,Forge Industries,Tier 1,UK,2640166.11,2021-06-13,Services,4.83,True,procurement@forgeindustr.com
+SC-00631,GlobalTech Incorporated,Tier 3,Japan,2657655.5,2021-06-07,Logistics,0.6,True,procurement@globaltechin.com
+SC-00632,Aether Networks,Tier 1,China,3291051.47,2020-01-18,Electronics,3.89,True,procurement@aethernetwor.com
+SC-00633,Crest Financial,Tier 1,India,4343681.69,2023-08-22,Software,2.31,False,procurement@crestfinanci.com
+SC-00634,Vertex Capital,Tier 2,China,4340525.09,2022-12-24,Electronics,1.86,False,procurement@vertexcapita.com
+SC-00635,Nimbus Cloud,Tier 1,Germany,4615237.07,2021-09-16,Raw Materials,4.9,True,procurement@nimbuscloud.com
+SC-00636,GlobalTech Incorporated,Tier 3,India,1809121.76,2021-09-11,Logistics,9.96,True,procurement@globaltechin.com
+SC-00637,Pinnacle,Tier 2,China,4457490.33,2020-03-01,Services,9.49,True,procurement@pinnaclesyst.com
+SC-00638,Zenith Technologies Ltd,Tier 2,Japan,729440.35,2022-02-21,Services,9.61,True,procurement@zenithtechno.com
+SC-00639,Ionic Materials,Tier 3,Germany,2161001.74,2021-10-01,Services,3.29,True,procurement@ionicmateria.com
+SC-00640,Solaris Energy,Tier 3,UK,3436040.75,2021-02-18,Logistics,3.09,True,procurement@solarisenerg.com
+SC-00641,Synapse A.I.,Tier 3,UK,4589705.0,2021-10-12,Electronics,5.57,True,procurement@synapseai.com
+SC-00642,Orion Dynamics,Tier 1,Japan,195942.56,2021-10-14,Software,9.61,True,procurement@oriondynamic.com
+SC-00643,Cascade Biotech,Tier 1,France,980271.33,2020-09-26,Logistics,0.26,True,procurement@cascadebiote.com
+SC-00644,Delphi Advisors,Tier 3,Germany,1193016.27,2020-02-23,Raw Materials,0.79,False,procurement@delphiadviso.com
+SC-00645,Apex Industries LLC,Tier 3,China,3574494.68,2022-02-04,Logistics,8.52,False,procurement@apexindustri.com
+SC-00646,Eclipse Trading,Tier 1,Germany,1170051.65,2022-04-16,Electronics,9.25,False,procurement@eclipsetradi.com
+SC-00647,TITAN Manufacturing,Tier 3,Germany,3800994.12,2020-05-15,Logistics,9.27,False,procurement@titanmanufac.com
+SC-00648,Aether Networks,Tier 3,India,4340535.78,2021-05-20,Software,4.05,True,procurement@aethernetwor.com
+SC-00649,Delphi Advisors,Tier 3,India,2001046.01,2023-03-17,Services,5.36,True,procurement@delphiadviso.com
+SC-00650,Radiant Health,Tier 2,China,4143700.0,2020-03-27,Logistics,5.19,False,procurement@radianthealt.com
+SC-00651,NexGen,Tier 2,UK,3837541.37,2020-04-10,Logistics,2.91,False,procurement@nexgensoluti.com
+SC-00652,Cobalt Ventures,Tier 2,Germany,2141187.8,2023-06-09,Electronics,6.9,True,procurement@cobaltventur.com
+SC-00653,Summit Resources,Tier 1,Japan,2528256.06,2021-01-03,Services,9.38,True,procurement@summitresour.com
+SC-00654,Prism Consulting,Tier 2,China,173314.96,2022-07-18,Services,8.97,True,procurement@prismconsult.com
+SC-00655,Summit Resources,Tier 2,India,3474001.27,2023-12-28,Logistics,7.18,True,procurement@summitresour.com
+SC-00656,Horizon Enterprises,Tier 3,China,3188658.47,2020-06-23,Services,7.07,True,procurement@horizonenter.com
+SC-00657,Delta Robotics,Tier 1,France,895880.66,2021-11-17,Services,8.71,True,procurement@deltarobotic.com
+SC-00658,Stratos Global,Tier 1,France,3574635.07,2022-05-09,Raw Materials,3.1,False,procurement@stratosgloba.com
+SC-00659,Atlas Freight Co,Tier 1,USA,4497782.47,2021-02-19,Electronics,6.23,True,procurement@atlasfreight.com
+SC-00660,ACME Corporation,Tier 2,France,2518279.09,2020-01-12,Services,8.83,True,procurement@acmecorporat.com
+SC-00661,Solaris Energy,Tier 2,China,2237283.04,2023-05-16,Services,0.07,True,procurement@solarisenerg.com
+SC-00662,Aether Networks,Tier 1,Germany,783868.03,2023-08-30,Raw Materials,0.37,True,procurement@aethernetwor.com
+SC-00663,Solace Systems,Tier 2,USA,292705.25,2022-05-03,Logistics,1.61,True,procurement@solacesystem.com
+SC-00664,Aether Networks,Tier 2,Japan,2915883.15,2020-03-14,Electronics,7.69,True,procurement@aethernetwor.com
+SC-00665,Crest Financial,Tier 1,France,2165253.0,2023-02-01,Electronics,2.93,True,procurement@crestfinanci.com
+SC-00666,Meridian Corp,Tier 2,UK,2098101.65,2021-03-05,Logistics,6.12,True,procurement@meridiancorp.com
+SC-00667,Solace Systems,Tier 2,Japan,3458838.68,2023-12-18,Raw Materials,4.27,True,procurement@solacesystem.com
+SC-00668,Quantum,Tier 3,UK,1801574.05,2020-09-22,Services,5.63,False,procurement@quantumanaly.com
+SC-00669,Pulsar Electronics,Tier 3,Germany,3557505.98,2021-01-31,Electronics,1.18,False,procurement@pulsarelectr.com
+SC-00670,Meridian Corp,Tier 3,China,2099503.64,2021-11-14,Raw Materials,5.6,True,procurement@meridiancorp.com
+SC-00671,Acme Corp.,Tier 1,Japan,1444052.18,2020-05-18,Raw Materials,3.0,True,procurement@acmecorporat.com
+SC-00672,Acme Corp,Tier 3,India,1739739.85,2023-03-11,Services,9.6,True,procurement@acmecorporat.com
+SC-00673,Vanguard Networks,Tier 2,Japan,2421585.95,2022-08-29,Electronics,6.46,False,procurement@vanguardnetw.com
+SC-00674,Zenith,Tier 2,France,2707989.35,2021-11-17,Software,7.84,False,procurement@zenithtechno.com
+SC-00675,Pinnacle,Tier 2,UK,3638572.56,2021-10-08,Services,5.36,True,procurement@pinnaclesyst.com
+SC-00676,Solace Systems,Tier 2,USA,4849585.8,2021-07-28,Electronics,3.39,False,procurement@solacesystem.com
+SC-00677,Forge Industries,Tier 3,UK,1978353.06,2023-05-03,Electronics,8.65,True,procurement@forgeindustr.com
+SC-00678,Indigo Capital,Tier 2,China,479649.04,2021-05-01,Raw Materials,4.52,True,procurement@indigocapita.com
+SC-00679,Solaris Energy,Tier 1,USA,1902367.67,2020-03-17,Logistics,9.13,False,procurement@solarisenerg.com
+SC-00680,Vertex Capital,Tier 2,UK,812685.0,2021-11-27,Software,7.32,True,procurement@vertexcapita.com
+SC-00681,Indigo Capital,Tier 1,France,4912253.7,2022-11-23,Logistics,2.05,True,procurement@indigocapita.com
+SC-00682,Summit Resources,Tier 3,France,2635607.12,2020-01-09,Raw Materials,9.32,True,procurement@summitresour.com
+SC-00683,Sirius Retail,Tier 1,USA,2626859.67,2023-09-11,Raw Materials,0.22,True,procurement@siriusretail.com
+SC-00684,Solaris Energy,Tier 1,Germany,1468508.52,2022-12-26,Raw Materials,7.73,True,procurement@solarisenerg.com
+SC-00685,Stellar Pharma,Tier 1,India,616578.95,2023-06-29,Services,5.14,True,procurement@stellarpharm.com
+SC-00686,Forge Industries,Tier 3,India,1391707.9,2023-12-13,Raw Materials,5.74,True,procurement@forgeindustr.com
+SC-00687,Vertex Holdings,Tier 3,India,2725856.66,2020-04-13,Logistics,0.29,True,procurement@vertexholdin.com
+SC-00688,Catalyst Group,Tier 1,USA,2161005.44,2021-01-01,Services,8.91,False,procurement@catalystgrou.com
+SC-00689,Aether Networks,Tier 2,India,4096337.8,2023-12-31,Services,0.79,False,procurement@aethernetwor.com
+SC-00690,Solace Systems,Tier 1,France,4021634.97,2023-12-01,Software,0.97,True,procurement@solacesystem.com
+SC-00691,Summit Resources,Tier 1,Germany,761422.33,2023-06-17,Raw Materials,9.13,False,procurement@summitresour.com
+SC-00692,Orion Dynamics,Tier 2,China,2463158.33,2020-05-13,Software,1.13,False,procurement@oriondynamic.com
+SC-00693,Summit Resources,Tier 2,France,1775646.44,2023-03-22,Logistics,5.08,False,procurement@summitresour.com
+SC-00694,Catalyst Group,Tier 3,Japan,401073.75,2021-09-10,Services,4.61,False,procurement@catalystgrou.com
+SC-00695,Nova Logistics,Tier 3,Germany,4870764.07,2022-02-25,Electronics,3.41,False,procurement@novalogistic.com
+SC-00696,Synapse Artificial Intelligence,Tier 2,UK,3485959.13,2020-12-20,Electronics,7.39,False,procurement@synapseai.com
+SC-00697,Meridian Corp,Tier 2,UK,533386.85,2022-06-30,Logistics,3.08,False,procurement@meridiancorp.com
+SC-00698,Vertex Holdings,Tier 3,France,3002206.8,2022-02-15,Raw Materials,4.94,True,procurement@vertexholdin.com
+SC-00699,Horizon Enterprises,Tier 1,UK,4521117.22,2023-07-26,Electronics,7.57,True,procurement@horizonenter.com
+SC-00700,Cascade Biotech,Tier 2,UK,2910760.5,2021-02-04,Logistics,6.82,True,procurement@cascadebiote.com
+SC-00701,Cobalt Ventures,Tier 2,Japan,4913772.5,2021-12-06,Electronics,5.83,False,procurement@cobaltventur.com
+SC-00702,APEX Industries,Tier 1,India,4510324.69,2020-04-18,Electronics,7.03,True,procurement@apexindustri.com
+SC-00703,Meridian Corp,Tier 1,Germany,2186991.73,2023-04-23,Software,6.25,False,procurement@meridiancorp.com
+SC-00704,Prism Consulting,Tier 2,UK,1095519.57,2020-12-21,Software,1.39,False,procurement@prismconsult.com
+SC-00705,Crest Financial,Tier 1,India,4987407.41,2023-10-04,Logistics,1.34,True,procurement@crestfinanci.com
+SC-00706,Global Tech Inc,Tier 3,China,3306737.15,2020-10-05,Electronics,1.37,False,procurement@globaltechin.com
+SC-00707,Summit Resources,Tier 3,Germany,2299252.08,2022-05-18,Services,8.2,False,procurement@summitresour.com
+SC-00708,Helios Media,Tier 1,China,3042637.62,2023-03-29,Software,8.47,True,procurement@heliosmedia.com
+SC-00709,Vertex Capital,Tier 2,UK,2902944.15,2020-03-09,Electronics,5.68,True,procurement@vertexcapita.com
+SC-00710,Meridian Corp,Tier 3,USA,753333.03,2022-12-14,Raw Materials,4.65,True,procurement@meridiancorp.com
+SC-00711,Radiant Health,Tier 1,China,3171781.1,2023-09-21,Electronics,6.84,True,procurement@radianthealt.com
+SC-00712,Aether Networks,Tier 2,UK,3903709.31,2022-08-18,Software,5.13,False,procurement@aethernetwor.com
+SC-00713,Solace Systems,Tier 2,India,4804877.45,2021-08-26,Raw Materials,1.68,True,procurement@solacesystem.com
+SC-00714,Solace Systems,Tier 1,Japan,2392144.63,2020-12-12,Services,0.52,True,procurement@solacesystem.com
+SC-00715,Aether Networks,Tier 2,China,458425.33,2022-11-01,Electronics,8.51,True,procurement@aethernetwor.com
+SC-00716,Quantum Analytic,Tier 3,India,1412324.72,2021-06-10,Electronics,7.41,True,procurement@quantumanaly.com
+SC-00717,Tempest Energy,Tier 3,China,1880345.81,2020-12-25,Raw Materials,7.83,True,procurement@tempestenerg.com
+SC-00718,Pulsar Electronics,Tier 3,France,213798.11,2020-06-21,Logistics,5.96,True,procurement@pulsarelectr.com
+SC-00719,Pulsar Electronics,Tier 2,Germany,3320303.08,2023-07-29,Logistics,2.11,True,procurement@pulsarelectr.com
+SC-00720,Pinnacle,Tier 2,France,4106678.5,2020-04-17,Logistics,4.64,False,procurement@pinnaclesyst.com
+SC-00721,Cobalt Ventures,Tier 3,France,4616173.28,2021-04-23,Software,6.84,False,procurement@cobaltventur.com
+SC-00722,Eclipse Trading,Tier 1,UK,4357874.79,2020-01-25,Raw Materials,9.27,False,procurement@eclipsetradi.com
+SC-00723,Delta Robotics,Tier 3,Japan,4781560.2,2020-07-18,Services,6.37,False,procurement@deltarobotic.com
+SC-00724,Aether Networks,Tier 2,India,1372084.69,2020-07-20,Raw Materials,6.54,False,procurement@aethernetwor.com
+SC-00725,Summit Resources,Tier 3,Japan,2964185.24,2021-02-03,Services,3.37,True,procurement@summitresour.com
+SC-00726,Indigo Capital,Tier 3,USA,4166863.02,2020-01-25,Software,0.98,True,procurement@indigocapita.com
+SC-00727,Cascade Biotech,Tier 1,Japan,1452320.24,2021-01-30,Electronics,0.24,True,procurement@cascadebiote.com
+SC-00728,Pinnacle,Tier 3,France,1123282.35,2023-05-12,Electronics,7.08,True,procurement@pinnaclesyst.com
+SC-00729,Horizon Enterprises,Tier 2,Japan,3831095.94,2023-08-19,Services,8.03,True,procurement@horizonenter.com
+SC-00730,Meridian Corp,Tier 2,India,2361430.11,2020-06-04,Software,9.23,True,procurement@meridiancorp.com
+SC-00731,Synapse Artificial Intelligence,Tier 3,France,3862092.07,2021-06-11,Logistics,7.81,True,procurement@synapseai.com
+SC-00732,Pinnacle Systems Ltd,Tier 2,India,4979994.91,2021-06-12,Raw Materials,1.78,True,procurement@pinnaclesyst.com
+SC-00733,Pulsar Electronics,Tier 3,China,933288.74,2022-10-04,Electronics,1.44,False,procurement@pulsarelectr.com
+SC-00734,Solaris Energy,Tier 2,Japan,1332031.47,2020-03-12,Electronics,0.7,True,procurement@solarisenerg.com
+SC-00735,Cascade Biotech,Tier 2,Germany,3281683.4,2020-01-02,Electronics,6.65,True,procurement@cascadebiote.com
+SC-00736,Zenith,Tier 2,China,2894469.25,2022-11-21,Software,4.78,False,procurement@zenithtechno.com
+SC-00737,Vertex Holdings,Tier 1,China,4773068.96,2022-09-14,Electronics,5.67,True,procurement@vertexholdin.com
+SC-00738,Sirius Retail,Tier 2,USA,3179749.01,2023-08-18,Electronics,3.65,True,procurement@siriusretail.com
+SC-00739,Horizon Enterprises,Tier 2,Japan,1055446.33,2023-02-09,Electronics,9.68,True,procurement@horizonenter.com
+SC-00740,Cobalt Ventures,Tier 1,Japan,3459770.78,2022-09-23,Electronics,8.85,False,procurement@cobaltventur.com
+SC-00741,Vanguard Networks,Tier 1,Germany,175554.8,2023-04-29,Logistics,4.89,True,procurement@vanguardnetw.com
+SC-00742,Forge Industries,Tier 2,UK,4826521.54,2022-07-09,Electronics,0.37,True,procurement@forgeindustr.com
+SC-00743,Sirius Retail,Tier 2,USA,1097806.97,2023-09-01,Services,4.58,True,procurement@siriusretail.com
+SC-00744,Tempest Energy,Tier 1,USA,3690525.63,2022-09-28,Electronics,4.71,True,procurement@tempestenerg.com
+SC-00745,Nova Logistics,Tier 1,Germany,3181674.2,2021-09-21,Electronics,4.56,True,procurement@novalogistic.com
+SC-00746,Tempest Energy,Tier 1,USA,2510860.31,2023-06-14,Logistics,0.63,True,procurement@tempestenerg.com
+SC-00747,SynapseAI,Tier 3,Japan,2039942.62,2020-09-04,Services,5.46,True,procurement@synapseai.com
+SC-00748,Solaris Energy,Tier 3,Germany,1710743.45,2020-09-04,Raw Materials,1.41,False,procurement@solarisenerg.com
+SC-00749,Stratos Global,Tier 3,Germany,2221373.0,2023-04-06,Electronics,1.33,False,procurement@stratosgloba.com
+SC-00750,Stratos Global,Tier 2,USA,81430.41,2021-01-02,Electronics,7.07,True,procurement@stratosgloba.com
+SC-00751,Ionic Materials,Tier 3,Germany,1070493.08,2023-08-03,Raw Materials,5.23,False,procurement@ionicmateria.com
+SC-00752,Nova Logistics,Tier 3,Japan,236225.0,2021-01-03,Software,6.12,True,procurement@novalogistic.com
+SC-00753,Cobalt Ventures,Tier 2,USA,2810666.5,2021-01-28,Electronics,9.87,True,procurement@cobaltventur.com
+SC-00754,Aether Networks,Tier 3,UK,1135416.86,2023-07-06,Logistics,2.76,True,procurement@aethernetwor.com
+SC-00755,Meridian Corp,Tier 3,France,4844440.5,2022-08-29,Software,1.76,True,procurement@meridiancorp.com
+SC-00756,Pinnacle,Tier 2,India,1087469.28,2021-05-29,Raw Materials,6.17,False,procurement@pinnaclesyst.com
+SC-00757,NexGen Solution,Tier 3,USA,4628063.66,2020-12-26,Logistics,7.85,False,procurement@nexgensoluti.com
+SC-00758,Vertex Capital,Tier 1,Germany,3620945.25,2023-04-28,Services,3.26,True,procurement@vertexcapita.com
+SC-00759,Indigo Capital,Tier 1,India,1177521.22,2021-04-30,Software,8.7,False,procurement@indigocapita.com
+SC-00760,Titan Mfg,Tier 2,UK,2447818.19,2022-06-11,Logistics,2.16,False,procurement@titanmanufac.com
+SC-00761,Orion Dynamics,Tier 2,Germany,2315813.96,2021-02-01,Raw Materials,9.76,True,procurement@oriondynamic.com
+SC-00762,Sirius Retail,Tier 1,Japan,2864895.87,2021-07-28,Logistics,1.11,False,procurement@siriusretail.com
+SC-00763,Summit Resources,Tier 1,France,1750701.24,2021-08-27,Services,1.57,True,procurement@summitresour.com
+SC-00764,Solace Systems,Tier 1,China,4292020.13,2022-09-28,Logistics,5.92,False,procurement@solacesystem.com
+SC-00765,Stellar Pharma,Tier 3,China,3694085.35,2021-05-20,Logistics,3.27,True,procurement@stellarpharm.com
+SC-00766,Tempest Energy,Tier 3,USA,2117970.67,2020-03-31,Electronics,9.91,True,procurement@tempestenerg.com
+SC-00767,Synapse Artificial Intelligence,Tier 2,China,4058096.78,2023-11-27,Electronics,4.52,True,procurement@synapseai.com
+SC-00768,Horizon Enterprises,Tier 3,Japan,2062759.5,2021-03-22,Logistics,3.58,True,procurement@horizonenter.com
+SC-00769,Horizon Enterprises,Tier 2,Japan,1558941.18,2023-12-11,Software,8.58,True,procurement@horizonenter.com
+SC-00770,Summit Resources,Tier 1,France,3530517.71,2021-01-13,Raw Materials,6.27,True,procurement@summitresour.com
+SC-00771,Vertex Holdings,Tier 3,India,2678055.62,2021-08-30,Software,7.53,True,procurement@vertexholdin.com
+SC-00772,Horizon Enterprises,Tier 3,USA,2597945.58,2023-10-13,Raw Materials,8.88,True,procurement@horizonenter.com
+SC-00773,Delta Robotics,Tier 2,UK,252327.96,2022-01-20,Logistics,6.48,True,procurement@deltarobotic.com
+SC-00774,Nimbus Cloud,Tier 1,India,1231231.89,2020-08-20,Software,7.37,True,procurement@nimbuscloud.com
+SC-00775,Titan Manufacturing Co,Tier 2,India,2542651.56,2022-05-16,Raw Materials,0.54,True,procurement@titanmanufac.com
+SC-00776,Helios Media,Tier 2,UK,2657078.87,2020-09-08,Software,7.1,True,procurement@heliosmedia.com
+SC-00777,Cascade Biotech,Tier 3,Japan,4053539.59,2020-05-14,Logistics,8.92,False,procurement@cascadebiote.com
+SC-00778,Horizon Enterprises,Tier 2,Germany,1477444.8,2020-06-06,Electronics,1.65,True,procurement@horizonenter.com
+SC-00779,Zenith Technologies Ltd,Tier 1,France,1061067.98,2023-07-08,Electronics,2.93,True,procurement@zenithtechno.com
+SC-00780,Eclipse Trading,Tier 2,China,3701660.76,2020-02-13,Raw Materials,1.89,True,procurement@eclipsetradi.com
+SC-00781,TITAN Manufacturing,Tier 3,India,2087874.06,2021-12-03,Raw Materials,4.86,False,procurement@titanmanufac.com
+SC-00782,Summit Resources,Tier 3,Germany,4496495.52,2021-09-19,Logistics,7.89,True,procurement@summitresour.com
+SC-00783,Eclipse Trading,Tier 2,France,4235292.86,2020-10-30,Raw Materials,2.84,True,procurement@eclipsetradi.com
+SC-00784,Aether Networks,Tier 3,UK,1461970.58,2020-12-25,Logistics,1.61,True,procurement@aethernetwor.com
+SC-00785,Next Gen Solutions,Tier 3,Germany,2232398.76,2022-01-27,Logistics,2.05,True,procurement@nexgensoluti.com
+SC-00786,Indigo Capital,Tier 1,India,2269724.03,2020-11-28,Services,3.02,True,procurement@indigocapita.com
+SC-00787,Prism Consulting,Tier 1,China,4642665.88,2020-11-15,Electronics,9.7,True,procurement@prismconsult.com
+SC-00788,ATLAS Freight,Tier 2,France,4904414.41,2023-03-20,Logistics,8.0,False,procurement@atlasfreight.com
+SC-00789,Sirius Retail,Tier 3,China,4505863.62,2020-10-12,Services,1.17,True,procurement@siriusretail.com
+SC-00790,Prism Consulting,Tier 2,India,507781.6,2020-04-22,Services,6.41,True,procurement@prismconsult.com
+SC-00791,Stellar Pharma,Tier 1,USA,2715140.86,2022-07-01,Electronics,9.76,False,procurement@stellarpharm.com
+SC-00792,Vanguard Networks,Tier 2,UK,3045135.22,2020-04-24,Raw Materials,3.98,False,procurement@vanguardnetw.com
+SC-00793,Crest Financial,Tier 2,USA,1459019.31,2021-12-20,Raw Materials,9.78,True,procurement@crestfinanci.com
+SC-00794,Solaris Energy,Tier 3,China,4028243.25,2021-08-14,Logistics,8.06,False,procurement@solarisenerg.com
+SC-00795,Ionic Materials,Tier 3,UK,476085.97,2021-03-01,Raw Materials,4.75,True,procurement@ionicmateria.com
+SC-00796,Vertex Holdings,Tier 1,USA,2076830.16,2021-07-13,Software,1.75,False,procurement@vertexholdin.com
+SC-00797,Solace Systems,Tier 1,Germany,4169804.43,2021-08-15,Services,4.91,True,procurement@solacesystem.com
+SC-00798,Tempest Energy,Tier 2,UK,3712287.31,2021-04-04,Electronics,7.91,True,procurement@tempestenerg.com
+SC-00799,Quantum Analytics Inc,Tier 3,France,3200976.11,2020-09-11,Raw Materials,4.17,False,procurement@quantumanaly.com
+SC-00800,Nova Logistics,Tier 1,France,1422224.32,2020-05-16,Services,7.46,False,procurement@novalogistic.com
+SC-00801,Solace Systems,Tier 2,Japan,3445268.54,2023-11-22,Electronics,3.73,True,procurement@solacesystem.com
+SC-00802,Quantum Analytic,Tier 3,USA,773378.75,2022-08-02,Logistics,3.57,True,procurement@quantumanaly.com
+SC-00803,Stellar Pharma,Tier 2,Japan,4564917.87,2021-12-30,Electronics,2.9,True,procurement@stellarpharm.com
+SC-00804,Vertex Capital,Tier 3,Germany,3835212.43,2023-05-11,Logistics,5.44,True,procurement@vertexcapita.com
+SC-00805,Cobalt Ventures,Tier 3,Japan,3457315.88,2020-07-15,Services,5.8,True,procurement@cobaltventur.com
+SC-00806,Acme Corp,Tier 3,India,1896420.27,2022-09-20,Software,3.4,True,procurement@acmecorporat.com
+SC-00807,Catalyst Group,Tier 1,UK,1144511.83,2021-01-20,Services,6.13,True,procurement@catalystgrou.com
+SC-00808,Ionic Materials,Tier 1,USA,4103281.48,2020-02-05,Software,3.48,True,procurement@ionicmateria.com
+SC-00809,APEX Industries,Tier 3,UK,3829768.25,2021-12-01,Logistics,7.1,True,procurement@apexindustri.com
+SC-00810,Meridian Corp,Tier 1,France,3486508.97,2023-11-10,Logistics,3.07,True,procurement@meridiancorp.com
+SC-00811,Apex Ind.,Tier 2,Japan,3826967.25,2020-08-16,Electronics,0.19,False,procurement@apexindustri.com
+SC-00812,Synapse A.I.,Tier 1,USA,212323.94,2023-09-13,Services,5.93,False,procurement@synapseai.com
+SC-00813,Meridian Corp,Tier 1,USA,1543146.74,2020-01-22,Electronics,7.82,True,procurement@meridiancorp.com
+SC-00814,Tempest Energy,Tier 1,Japan,1790091.65,2020-07-04,Logistics,8.46,True,procurement@tempestenerg.com
+SC-00815,Tempest Energy,Tier 2,Germany,4282933.51,2023-06-09,Logistics,5.05,True,procurement@tempestenerg.com
+SC-00816,Catalyst Group,Tier 3,Germany,3593267.59,2021-07-31,Logistics,9.02,True,procurement@catalystgrou.com
+SC-00817,Catalyst Group,Tier 3,France,3553392.65,2022-01-20,Services,1.85,True,procurement@catalystgrou.com
+SC-00818,Orion Dynamics,Tier 2,China,1110656.3,2021-04-11,Software,1.13,True,procurement@oriondynamic.com
+SC-00819,Meridian Corp,Tier 1,UK,722766.23,2022-01-09,Raw Materials,5.57,True,procurement@meridiancorp.com
+SC-00820,Horizon Enterprises,Tier 2,USA,1954666.53,2022-07-24,Services,7.36,False,procurement@horizonenter.com
+SC-00821,TITAN Manufacturing,Tier 2,India,4925563.52,2022-05-26,Logistics,8.57,False,procurement@titanmanufac.com
+SC-00822,Crest Financial,Tier 1,Japan,2483659.45,2020-08-03,Software,4.38,True,procurement@crestfinanci.com
+SC-00823,Meridian Corp,Tier 2,China,3490433.72,2020-07-27,Logistics,0.65,True,procurement@meridiancorp.com
+SC-00824,Sirius Retail,Tier 3,France,4953773.53,2020-09-08,Logistics,8.38,False,procurement@siriusretail.com
+SC-00825,Stellar Pharma,Tier 3,China,1812681.67,2023-09-27,Services,9.5,False,procurement@stellarpharm.com
+SC-00826,Vertex Capital,Tier 1,France,2300441.97,2020-09-07,Raw Materials,4.89,True,procurement@vertexcapita.com
+SC-00827,Apex Ind.,Tier 1,Japan,311619.48,2020-05-19,Software,6.78,True,procurement@apexindustri.com
+SC-00828,Delta Robotics,Tier 1,India,3128735.47,2020-07-16,Electronics,6.61,False,procurement@deltarobotic.com
+SC-00829,Summit Resources,Tier 2,Japan,2514600.27,2022-10-30,Raw Materials,5.42,True,procurement@summitresour.com
+SC-00830,Next Gen Solutions,Tier 1,China,2278071.82,2022-02-09,Software,4.6,True,procurement@nexgensoluti.com
+SC-00831,Orion Dynamics,Tier 3,Germany,2482824.06,2020-10-02,Raw Materials,7.16,False,procurement@oriondynamic.com
+SC-00832,Meridian Corp,Tier 3,UK,3442602.13,2023-03-17,Software,4.76,True,procurement@meridiancorp.com
+SC-00833,Vertex Capital,Tier 2,India,2498721.1,2022-02-12,Services,6.76,True,procurement@vertexcapita.com
+SC-00834,Indigo Capital,Tier 1,UK,273336.34,2022-01-20,Raw Materials,8.1,True,procurement@indigocapita.com
+SC-00835,Sirius Retail,Tier 1,China,1758457.99,2022-01-01,Software,3.51,True,procurement@siriusretail.com
+SC-00836,Nova Logistics,Tier 3,India,2983031.75,2023-11-10,Electronics,8.69,True,procurement@novalogistic.com
+SC-00837,Sirius Retail,Tier 1,UK,1664278.35,2022-08-01,Software,5.68,False,procurement@siriusretail.com
+SC-00838,Stellar Pharma,Tier 3,China,2960546.71,2021-10-10,Software,5.7,True,procurement@stellarpharm.com
+SC-00839,Solace Systems,Tier 2,USA,3469776.62,2021-02-25,Raw Materials,4.97,True,procurement@solacesystem.com
+SC-00840,Stratos Global,Tier 2,China,1048705.2,2023-07-25,Electronics,8.4,True,procurement@stratosgloba.com
+SC-00841,ATLAS Freight,Tier 1,India,4981327.08,2022-04-03,Logistics,6.25,True,procurement@atlasfreight.com
+SC-00842,Tempest Energy,Tier 3,India,1403156.41,2023-03-06,Services,4.75,True,procurement@tempestenerg.com
+SC-00843,Helios Media,Tier 3,France,1544142.72,2021-09-06,Software,6.63,True,procurement@heliosmedia.com
+SC-00844,Vanguard Networks,Tier 2,India,3143571.19,2022-07-17,Services,1.81,True,procurement@vanguardnetw.com
+SC-00845,Radiant Health,Tier 3,China,1104116.38,2022-08-15,Raw Materials,9.37,False,procurement@radianthealt.com
+SC-00846,Solace Systems,Tier 3,Germany,1853159.61,2020-10-29,Logistics,1.5,True,procurement@solacesystem.com
+SC-00847,SynapseAI,Tier 2,France,4159561.18,2020-05-11,Logistics,8.46,True,procurement@synapseai.com
+SC-00848,Atlas Freight Co,Tier 1,India,3449931.77,2021-04-28,Software,2.38,True,procurement@atlasfreight.com
+SC-00849,Vanguard Networks,Tier 1,France,4144782.68,2022-08-08,Software,5.6,False,procurement@vanguardnetw.com
+SC-00850,Synapse Artificial Intelligence,Tier 1,Germany,838824.52,2020-10-06,Electronics,2.58,True,procurement@synapseai.com
+SC-00851,Nimbus Cloud,Tier 3,France,259050.24,2022-09-22,Electronics,0.55,True,procurement@nimbuscloud.com
+SC-00852,Indigo Capital,Tier 1,China,4489027.56,2023-10-07,Electronics,3.97,True,procurement@indigocapita.com
+SC-00853,Nova Logistics,Tier 3,Japan,2526230.22,2020-09-04,Services,6.64,True,procurement@novalogistic.com
+SC-00854,Pulsar Electronics,Tier 1,UK,655270.33,2021-10-03,Raw Materials,8.32,False,procurement@pulsarelectr.com
+SC-00855,Nova Logistics,Tier 1,Germany,578729.37,2021-03-14,Raw Materials,4.39,True,procurement@novalogistic.com
+SC-00856,Tempest Energy,Tier 2,UK,1904789.67,2020-08-19,Raw Materials,5.46,False,procurement@tempestenerg.com
+SC-00857,Nova Logistics,Tier 1,India,2402347.81,2022-01-23,Raw Materials,0.21,True,procurement@novalogistic.com
+SC-00858,Pinnacle,Tier 3,Germany,1302265.34,2022-02-26,Raw Materials,6.39,True,procurement@pinnaclesyst.com
+SC-00859,Meridian Corp,Tier 2,China,88937.23,2022-03-15,Raw Materials,3.01,True,procurement@meridiancorp.com
+SC-00860,Cobalt Ventures,Tier 1,China,3175195.88,2023-08-12,Software,7.89,True,procurement@cobaltventur.com
+SC-00861,Horizon Enterprises,Tier 2,Japan,2094158.53,2021-11-12,Software,8.77,True,procurement@horizonenter.com
+SC-00862,Stratos Global,Tier 3,USA,1791688.92,2023-05-18,Services,7.38,False,procurement@stratosgloba.com
+SC-00863,Global Tech Inc,Tier 3,Japan,959511.13,2022-06-27,Logistics,0.03,True,procurement@globaltechin.com
+SC-00864,Cobalt Ventures,Tier 3,USA,598599.59,2021-05-26,Services,7.14,True,procurement@cobaltventur.com
+SC-00865,Delphi Advisors,Tier 2,China,2417909.13,2020-09-30,Raw Materials,1.73,True,procurement@delphiadviso.com
+SC-00866,Atlas Freight LLC,Tier 1,China,1869617.84,2022-03-16,Software,9.45,True,procurement@atlasfreight.com
+SC-00867,Global Tech Inc,Tier 3,Japan,3079415.64,2021-04-13,Electronics,9.74,True,procurement@globaltechin.com
+SC-00868,Quantum,Tier 1,USA,2035122.81,2022-05-28,Services,2.6,True,procurement@quantumanaly.com
+SC-00869,Crest Financial,Tier 3,USA,119868.79,2022-12-12,Software,7.73,False,procurement@crestfinanci.com
+SC-00870,Pulsar Electronics,Tier 1,Japan,1055569.55,2021-06-29,Raw Materials,7.46,False,procurement@pulsarelectr.com
+SC-00871,APEX Industries,Tier 1,UK,1117054.66,2021-08-02,Logistics,4.18,False,procurement@apexindustri.com
+SC-00872,Zenith Tech,Tier 2,India,1215653.85,2022-07-12,Logistics,3.7,False,procurement@zenithtechno.com
+SC-00873,Horizon Enterprises,Tier 2,Germany,4363645.2,2023-11-20,Software,6.87,False,procurement@horizonenter.com
+SC-00874,Synapse Artificial Intelligence,Tier 3,India,411625.31,2023-02-14,Electronics,0.52,True,procurement@synapseai.com
+SC-00875,Eclipse Trading,Tier 3,Japan,4837688.73,2023-05-10,Electronics,0.05,False,procurement@eclipsetradi.com
+SC-00876,Cobalt Ventures,Tier 3,India,704579.36,2023-02-19,Electronics,5.8,True,procurement@cobaltventur.com
+SC-00877,Stratos Global,Tier 2,China,703001.69,2021-10-11,Services,4.33,True,procurement@stratosgloba.com
+SC-00878,Meridian Corp,Tier 1,Germany,2521092.56,2021-07-29,Raw Materials,9.26,True,procurement@meridiancorp.com
+SC-00879,Quantum,Tier 2,UK,1599401.06,2020-12-03,Raw Materials,7.37,False,procurement@quantumanaly.com
+SC-00880,Zenith,Tier 3,Japan,4001189.91,2020-04-18,Logistics,1.49,True,procurement@zenithtechno.com
+SC-00881,Orion Dynamics,Tier 2,India,859597.04,2022-08-14,Software,1.16,False,procurement@oriondynamic.com
+SC-00882,Next Gen Solutions,Tier 2,Japan,2826229.88,2022-07-26,Software,1.12,True,procurement@nexgensoluti.com
+SC-00883,Meridian Corp,Tier 1,Germany,4347456.89,2021-01-04,Logistics,7.5,True,procurement@meridiancorp.com
+SC-00884,Solace Systems,Tier 3,USA,2653776.26,2023-03-14,Logistics,4.16,True,procurement@solacesystem.com
+SC-00885,Nova Logistics,Tier 3,USA,4442470.11,2020-02-23,Raw Materials,6.81,True,procurement@novalogistic.com
+SC-00886,Prism Consulting,Tier 3,USA,4193037.18,2020-11-10,Electronics,0.81,False,procurement@prismconsult.com
+SC-00887,Summit Resources,Tier 3,Japan,78736.54,2020-03-30,Services,9.51,True,procurement@summitresour.com
+SC-00888,Solace Systems,Tier 1,France,290977.13,2023-08-11,Raw Materials,3.23,True,procurement@solacesystem.com
+SC-00889,Vertex Holdings,Tier 1,China,1313061.31,2021-05-06,Software,0.89,True,procurement@vertexholdin.com
+SC-00890,Stratos Global,Tier 2,India,3253481.61,2023-09-01,Logistics,1.21,False,procurement@stratosgloba.com
+SC-00891,Synapse Artificial Intelligence,Tier 2,Japan,3037392.35,2022-01-05,Electronics,8.32,True,procurement@synapseai.com
+SC-00892,Pulsar Electronics,Tier 2,China,1378973.05,2023-05-14,Software,0.9,False,procurement@pulsarelectr.com
+SC-00893,Crest Financial,Tier 2,Japan,2158784.64,2020-03-23,Services,3.42,False,procurement@crestfinanci.com
+SC-00894,TITAN Manufacturing,Tier 3,Japan,817595.02,2022-10-11,Services,6.3,True,procurement@titanmanufac.com
+SC-00895,ATLAS Freight,Tier 2,USA,4540678.17,2022-09-05,Raw Materials,1.49,True,procurement@atlasfreight.com
+SC-00896,Cobalt Ventures,Tier 3,China,1512634.09,2020-04-07,Services,0.77,True,procurement@cobaltventur.com
+SC-00897,Vertex Capital,Tier 3,China,2094446.05,2022-08-09,Services,8.13,True,procurement@vertexcapita.com
+SC-00898,Quantum,Tier 1,France,2542050.61,2020-08-21,Software,1.8,True,procurement@quantumanaly.com
+SC-00899,Prism Consulting,Tier 1,China,4389938.97,2021-09-01,Raw Materials,5.87,False,procurement@prismconsult.com
+SC-00900,Cascade Biotech,Tier 2,France,4059529.74,2021-03-08,Logistics,0.78,True,procurement@cascadebiote.com
+SC-00901,Catalyst Group,Tier 3,USA,78942.99,2020-08-26,Electronics,1.72,False,procurement@catalystgrou.com
+SC-00902,Summit Resources,Tier 3,Japan,3029342.83,2022-09-23,Raw Materials,6.18,True,procurement@summitresour.com
+SC-00903,Prism Consulting,Tier 1,Germany,718814.04,2021-01-25,Electronics,8.16,True,procurement@prismconsult.com
+SC-00904,Global Tech Inc,Tier 2,Japan,768513.24,2021-05-10,Software,8.42,True,procurement@globaltechin.com
+SC-00905,Horizon Enterprises,Tier 2,Germany,2396245.98,2020-02-14,Electronics,1.66,True,procurement@horizonenter.com
+SC-00906,Cascade Biotech,Tier 2,USA,4305992.4,2023-04-13,Logistics,2.01,False,procurement@cascadebiote.com
+SC-00907,Pinnacle Systems Ltd,Tier 1,USA,3170528.91,2023-12-31,Software,9.79,False,procurement@pinnaclesyst.com
+SC-00908,Tempest Energy,Tier 1,China,2028417.84,2022-11-17,Services,7.25,False,procurement@tempestenerg.com
+SC-00909,TITAN Manufacturing,Tier 1,UK,144147.31,2023-03-26,Raw Materials,5.53,True,procurement@titanmanufac.com
+SC-00910,Ionic Materials,Tier 1,China,3132348.61,2023-08-16,Raw Materials,4.48,False,procurement@ionicmateria.com
+SC-00911,Global Tech Inc,Tier 2,Japan,1001396.42,2021-12-05,Software,2.32,True,procurement@globaltechin.com
+SC-00912,Tempest Energy,Tier 3,France,4220212.32,2023-09-07,Software,1.31,True,procurement@tempestenerg.com
+SC-00913,Delta Robotics,Tier 3,Japan,3686193.93,2022-08-25,Logistics,6.22,True,procurement@deltarobotic.com
+SC-00914,Horizon Enterprises,Tier 1,Germany,1037446.9,2023-05-25,Software,1.01,False,procurement@horizonenter.com
+SC-00915,Pulsar Electronics,Tier 1,Germany,2806311.03,2020-02-07,Raw Materials,8.81,True,procurement@pulsarelectr.com
+SC-00916,Stratos Global,Tier 3,USA,4043736.94,2021-11-22,Software,1.14,True,procurement@stratosgloba.com
+SC-00917,Meridian Corp,Tier 2,India,4968630.97,2021-12-28,Electronics,7.7,True,procurement@meridiancorp.com
+SC-00918,Zenith,Tier 3,UK,3363955.16,2023-12-17,Electronics,9.27,False,procurement@zenithtechno.com
+SC-00919,Summit Resources,Tier 1,France,3072334.09,2020-07-27,Services,0.42,True,procurement@summitresour.com
+SC-00920,Stratos Global,Tier 1,India,827311.11,2021-08-21,Software,7.62,False,procurement@stratosgloba.com
+SC-00921,Catalyst Group,Tier 3,India,1706307.25,2020-10-09,Electronics,8.49,False,procurement@catalystgrou.com
+SC-00922,Ionic Materials,Tier 1,France,4055268.82,2021-11-30,Raw Materials,5.05,True,procurement@ionicmateria.com
+SC-00923,Stellar Pharma,Tier 3,France,2104292.61,2023-07-13,Logistics,1.52,False,procurement@stellarpharm.com
+SC-00924,Titan Mfg,Tier 2,China,4594199.29,2022-07-28,Services,7.95,True,procurement@titanmanufac.com
+SC-00925,GlobalTech Incorporated,Tier 1,France,99246.13,2022-11-25,Electronics,0.85,True,procurement@globaltechin.com
+SC-00926,Prism Consulting,Tier 2,USA,1996668.02,2020-03-16,Logistics,9.03,True,procurement@prismconsult.com
+SC-00927,Radiant Health,Tier 2,China,4434625.11,2023-12-06,Services,8.74,True,procurement@radianthealt.com
+SC-00928,Helios Media,Tier 2,UK,3071485.26,2020-10-27,Software,4.46,True,procurement@heliosmedia.com
+SC-00929,Forge Industries,Tier 3,India,4443990.74,2023-08-21,Software,7.75,True,procurement@forgeindustr.com
+SC-00930,Horizon Enterprises,Tier 3,India,1980468.02,2020-09-15,Services,9.92,True,procurement@horizonenter.com
+SC-00931,Solaris Energy,Tier 3,UK,1595649.45,2021-11-28,Logistics,0.23,True,procurement@solarisenerg.com
+SC-00932,Nova Logistics,Tier 3,China,4935425.77,2020-08-14,Electronics,8.42,True,procurement@novalogistic.com
+SC-00933,Vertex Capital,Tier 1,USA,3794971.72,2020-09-12,Software,2.98,True,procurement@vertexcapita.com
+SC-00934,Summit Resources,Tier 1,France,3741502.45,2023-04-06,Services,7.15,True,procurement@summitresour.com
+SC-00935,Helios Media,Tier 2,Japan,3934706.85,2023-03-19,Logistics,7.14,True,procurement@heliosmedia.com
+SC-00936,Catalyst Group,Tier 3,UK,1003148.55,2022-01-09,Software,0.98,False,procurement@catalystgrou.com
+SC-00937,Ionic Materials,Tier 1,USA,2153189.33,2020-09-23,Software,2.15,True,procurement@ionicmateria.com
+SC-00938,Crest Financial,Tier 3,UK,2618777.75,2022-03-19,Raw Materials,5.84,False,procurement@crestfinanci.com
+SC-00939,Cascade Biotech,Tier 3,China,4127868.56,2020-10-22,Services,1.27,False,procurement@cascadebiote.com
+SC-00940,Apex Industries LLC,Tier 3,France,2669248.48,2023-11-23,Logistics,4.55,True,procurement@apexindustri.com
+SC-00941,Stratos Global,Tier 1,UK,4268973.1,2020-08-13,Electronics,3.7,True,procurement@stratosgloba.com
+SC-00942,NexGen,Tier 1,USA,1888763.4,2022-02-05,Raw Materials,2.94,True,procurement@nexgensoluti.com
+SC-00943,Zenith Tech,Tier 3,China,290822.68,2021-09-16,Raw Materials,2.16,False,procurement@zenithtechno.com
+SC-00944,Acme Corp,Tier 3,India,384444.47,2020-04-01,Software,4.81,True,procurement@acmecorporat.com
+SC-00945,Solace Systems,Tier 2,France,1917662.87,2023-05-25,Logistics,7.62,False,procurement@solacesystem.com
+SC-00946,Cascade Biotech,Tier 1,France,3652927.57,2020-07-01,Services,6.65,False,procurement@cascadebiote.com
+SC-00947,Delta Robotics,Tier 2,India,2727922.53,2023-10-05,Software,7.36,True,procurement@deltarobotic.com
+SC-00948,Stratos Global,Tier 3,Japan,3990985.97,2023-12-19,Raw Materials,5.61,True,procurement@stratosgloba.com
+SC-00949,Nimbus Cloud,Tier 1,UK,2732079.93,2020-04-18,Services,5.22,False,procurement@nimbuscloud.com
+SC-00950,Vertex Capital,Tier 1,Japan,4684099.96,2021-01-03,Electronics,2.75,True,procurement@vertexcapita.com
+SC-00951,Nova Logistics,Tier 1,France,2691042.14,2021-10-18,Software,5.89,False,procurement@novalogistic.com
+SC-00952,GlobalTech Incorporated,Tier 2,Germany,2103935.3,2022-12-17,Raw Materials,3.82,True,procurement@globaltechin.com
+SC-00953,Meridian Corp,Tier 3,Germany,1462491.04,2021-01-09,Raw Materials,7.68,True,procurement@meridiancorp.com
+SC-00954,Cobalt Ventures,Tier 3,Germany,341622.99,2021-10-28,Logistics,0.27,True,procurement@cobaltventur.com
+SC-00955,Cobalt Ventures,Tier 1,India,755179.72,2021-10-25,Raw Materials,3.76,True,procurement@cobaltventur.com
+SC-00956,Pinnacle Sys,Tier 1,France,3005172.86,2021-04-29,Software,5.09,False,procurement@pinnaclesyst.com
+SC-00957,Meridian Corp,Tier 1,India,2350876.49,2022-04-13,Electronics,4.84,False,procurement@meridiancorp.com
+SC-00958,Titan Mfg,Tier 2,UK,4819199.7,2023-10-14,Electronics,2.46,True,procurement@titanmanufac.com
+SC-00959,Cobalt Ventures,Tier 2,USA,4239075.37,2022-10-21,Logistics,7.83,True,procurement@cobaltventur.com
+SC-00960,Crest Financial,Tier 1,UK,4765432.5,2023-02-10,Software,0.42,False,procurement@crestfinanci.com
+SC-00961,Aether Networks,Tier 3,Germany,52687.51,2022-09-14,Raw Materials,5.98,False,procurement@aethernetwor.com
+SC-00962,Helios Media,Tier 3,France,2576125.69,2020-04-03,Logistics,7.39,True,procurement@heliosmedia.com
+SC-00963,Cobalt Ventures,Tier 2,Japan,658735.98,2020-10-13,Services,9.99,False,procurement@cobaltventur.com
+SC-00964,Solaris Energy,Tier 3,India,3194090.91,2023-12-20,Software,2.73,True,procurement@solarisenerg.com
+SC-00965,Sirius Retail,Tier 2,UK,1675863.36,2023-11-17,Logistics,6.46,True,procurement@siriusretail.com
+SC-00966,Delphi Advisors,Tier 1,USA,3379896.7,2022-04-26,Services,8.95,False,procurement@delphiadviso.com
+SC-00967,Prism Consulting,Tier 3,Japan,433739.43,2020-03-04,Software,6.72,True,procurement@prismconsult.com
+SC-00968,Delta Robotics,Tier 2,Germany,4203771.67,2023-11-28,Electronics,1.25,True,procurement@deltarobotic.com
+SC-00969,Vanguard Networks,Tier 1,Germany,3728565.0,2021-07-29,Raw Materials,1.92,True,procurement@vanguardnetw.com
+SC-00970,Titan Mfg,Tier 2,India,232140.41,2022-10-06,Services,2.09,True,procurement@titanmanufac.com
+SC-00971,Prism Consulting,Tier 2,UK,2526611.91,2020-12-15,Services,1.94,True,procurement@prismconsult.com
+SC-00972,Vertex Holdings,Tier 3,USA,680783.01,2023-03-13,Logistics,8.81,True,procurement@vertexholdin.com
+SC-00973,Vanguard Networks,Tier 3,Japan,2688060.51,2021-06-01,Services,8.83,True,procurement@vanguardnetw.com
+SC-00974,Synapse Artificial Intelligence,Tier 3,Japan,306720.85,2021-10-23,Software,8.44,False,procurement@synapseai.com
+SC-00975,Stellar Pharma,Tier 3,UK,2359604.3,2022-01-10,Services,7.59,True,procurement@stellarpharm.com
+SC-00976,Pinnacle Systems Ltd,Tier 2,UK,2271864.41,2020-01-11,Software,1.95,True,procurement@pinnaclesyst.com
+SC-00977,Solace Systems,Tier 3,Germany,4891573.27,2022-05-17,Electronics,9.17,True,procurement@solacesystem.com
+SC-00978,Stratos Global,Tier 2,USA,3148673.7,2020-07-17,Electronics,4.8,True,procurement@stratosgloba.com
+SC-00979,Tempest Energy,Tier 2,Germany,583811.23,2021-05-03,Raw Materials,8.33,True,procurement@tempestenerg.com
+SC-00980,Radiant Health,Tier 1,France,3019825.29,2022-06-17,Electronics,6.25,True,procurement@radianthealt.com
+SC-00981,Horizon Enterprises,Tier 1,China,1600733.2,2023-11-21,Electronics,7.83,True,procurement@horizonenter.com
+SC-00982,Cascade Biotech,Tier 2,UK,3149616.8,2020-05-14,Electronics,6.78,True,procurement@cascadebiote.com
+SC-00983,ATLAS Freight,Tier 2,USA,3105644.78,2022-04-21,Logistics,8.65,True,procurement@atlasfreight.com
+SC-00984,Summit Resources,Tier 2,France,2169123.42,2023-06-24,Services,1.01,True,procurement@summitresour.com
+SC-00985,Summit Resources,Tier 3,Germany,584632.62,2020-01-26,Services,7.13,True,procurement@summitresour.com
+SC-00986,Solace Systems,Tier 3,UK,1318616.21,2022-05-12,Software,7.25,False,procurement@solacesystem.com
+SC-00987,Orion Dynamics,Tier 1,France,268150.4,2020-09-18,Raw Materials,5.85,True,procurement@oriondynamic.com
+SC-00988,Cobalt Ventures,Tier 1,China,1577938.35,2021-12-03,Raw Materials,3.69,True,procurement@cobaltventur.com
+SC-00989,Radiant Health,Tier 1,Germany,2560183.94,2023-02-19,Electronics,4.22,True,procurement@radianthealt.com
+SC-00990,Vanguard Networks,Tier 1,India,987310.08,2022-09-01,Software,6.0,True,procurement@vanguardnetw.com
+SC-00991,Tempest Energy,Tier 3,India,2122541.68,2020-11-28,Electronics,4.54,True,procurement@tempestenerg.com
+SC-00992,Pulsar Electronics,Tier 1,Japan,1153974.19,2021-04-16,Software,6.24,True,procurement@pulsarelectr.com
+SC-00993,Eclipse Trading,Tier 3,China,1066315.98,2021-01-12,Electronics,3.63,True,procurement@eclipsetradi.com
+SC-00994,Helios Media,Tier 3,USA,754889.77,2022-06-20,Logistics,6.31,True,procurement@heliosmedia.com
+SC-00995,NexGen Solution,Tier 1,Germany,1456299.38,2021-03-24,Raw Materials,7.19,True,procurement@nexgensoluti.com
+SC-00996,Nimbus Cloud,Tier 1,Germany,156385.54,2021-06-20,Electronics,0.21,True,procurement@nimbuscloud.com
+SC-00997,Delta Robotics,Tier 2,Germany,1560108.27,2021-05-06,Raw Materials,8.09,True,procurement@deltarobotic.com
+SC-00998,Radiant Health,Tier 3,USA,636541.93,2020-09-24,Logistics,1.92,False,procurement@radianthealt.com
+SC-00999,Crest Financial,Tier 3,China,4886058.62,2021-05-15,Electronics,7.63,True,procurement@crestfinanci.com
+SC-01000,Forge Industries,Tier 1,India,1273499.66,2023-07-13,Raw Materials,8.73,False,procurement@forgeindustr.com
