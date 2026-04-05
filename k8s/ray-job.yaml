@@ -16,8 +16,12 @@ spec:
 
   submitterPodTemplate:
     spec:
+      restartPolicy: Never
+      nodeSelector:
+        node-role: system
       containers:
         - name: ray-job-submitter
+          image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
           resources:
             requests:
               cpu: "100m"
