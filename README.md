@@ -1,4 +1,4 @@
-text
+
 <div align="center">
 
 <h1>Ray AI Platform v2</h1>
@@ -356,7 +356,7 @@ ray-gke-cluster-v2 (asia-south1)
 ├── taint: ray-worker=true:NoSchedule ← only Ray workers land here
 └── runs: Ray Workers · EntityResolver Actor
 
-text
+
 
 ### Terraform State
 
@@ -366,7 +366,7 @@ gs://ray-platform-v2-ray2-data-bucket/
 └── state/
 └── default.tfstate ← single source of truth
 
-text
+
 
 Both `terraform plan` (on PR) and `terraform apply` (on merge) read/write the same file.
 
@@ -414,7 +414,7 @@ ray-platform-v2/
 ├── terraform.yml # terraform plan on every PR
 └── deploy.yml # build + push + RayJob on merge to main
 
-text
+
 
 ---
 
@@ -640,7 +640,7 @@ corporate_name canonical_id is_resolved
 --- Final Step: Upserting to Apache Iceberg (corporate_registry) ---
 Successfully committed transaction to Iceberg table.
 
-text
+
 
 ---
 
@@ -678,7 +678,7 @@ New worker pod → Running (rejoins Ray cluster)
 
 Ray retries in-flight tasks (automatic, no intervention)
 
-text
+
 
 Restore the node after the demo:
 
