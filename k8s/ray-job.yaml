@@ -59,8 +59,8 @@ spec:
                   value: "100000000"
               resources:
                 requests:
-                  cpu: "500m"
-                  memory: "1Gi"
+                  cpu: "200m"
+                  memory: "512Mi"
                 limits:
                   cpu: "1"
                   memory: "2Gi"
@@ -76,6 +76,8 @@ spec:
           resources: '"{\"entity_resolver\": 1}"'
         template:
           spec:
+            nodeSelector:
+              node-role: worker
             serviceAccountName: ray-worker-sa-v2
             tolerations:
               - key: "ray-worker"
@@ -99,8 +101,8 @@ spec:
                     value: "100000000"
                 resources:
                   requests:
-                    cpu: "500m"
-                    memory: "1Gi"
+                    cpu: "200m"
+                    memory: "512Mi"
                   limits:
                     cpu: "1"
                     memory: "2Gi"
