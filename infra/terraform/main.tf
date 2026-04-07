@@ -58,7 +58,7 @@ resource "google_container_node_pool" "system_pool" {
   node_count = 1
 
   node_config {
-    machine_type = "e2-medium"
+    machine_type = "n2-standard-2"
     disk_type    = "pd-standard"
     disk_size_gb = 50
 
