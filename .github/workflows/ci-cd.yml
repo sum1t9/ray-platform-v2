@@ -8,7 +8,7 @@ on:
 
 env:
   GCP_PROJECT_ID: ray-platform-v2
-  GCP_REGION: asia-south1 
+  GCP_REGION: asia-south1
   GKE_CLUSTER_NAME: ray-gke-cluster-v2
   ARTIFACT_REGISTRY_LOCATION: asia-south1
   ARTIFACT_REGISTRY_REPOSITORY: ray-repo-v2
@@ -18,8 +18,19 @@ jobs:
   terraform-plan:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
+
+    permissions:
+      contents: read
+      id-token: write
+
     steps:
       - uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ secrets.GCP_WORKLOAD_ID_PROVIDER }}
+          service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
 
       - uses: hashicorp/setup-terraform@v3
         with:
@@ -39,11 +50,12 @@ jobs:
 
       - name: Terraform Plan
         working-directory: infra/terraform
-        run: terraform plan -var="project_id=${GCP_PROJECT_ID}" -out=tfplan
+        run: terraform plan -var="project_id=${GCP_PROJECT_ID}"
 
   build-and-deploy:
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
+
     permissions:
       contents: read
       id-token: write
@@ -62,20 +74,21 @@ jobs:
         with:
           project_id: ${{ env.GCP_PROJECT_ID }}
 
-      - name: Install GKE auth plugin and Helm
-        run: |
-          gcloud components install gke-gcloud-auth-plugin --quiet
-          sudo snap install helm --classic || true
+      - name: Install GKE auth plugin
+        run: gcloud components install gke-gcloud-auth-plugin --quiet
+
+      - name: Install Helm
+        uses: azure/setup-helm@v3
+        with:
+          version: v3.12.0
 
       - name: Configure Docker auth for Artifact Registry
-        run: |
-          echo "Using registry: ${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev"
-          gcloud auth configure-docker ${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev --quiet
+        run: gcloud auth configure-docker ${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev --quiet
 
       - name: Build and push Docker image
         working-directory: app
         run: |
-          IMAGE="${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev/${GCP_PROJECT_ID}/${ARTIFACT_REGISTRY_REPOSITORY}/${IMAGE_NAME}:${GITHUB_SHA}"
+          IMAGE="${ARTIFACT_REGISTRY_LOCATION}-docker.pkg.dev/${GCP_PROJECT_ID}/${ARTIFACT_REGISTRY_REPOSITORY}/${IMAGE_NAME}:latest"
           echo "Building image: ${IMAGE}"
           docker build -t "${IMAGE}" .
           docker push "${IMAGE}"
@@ -84,7 +97,7 @@ jobs:
       - name: Get GKE credentials
         run: |
           gcloud container clusters get-credentials "${GKE_CLUSTER_NAME}" \
-            --region "${GCP_REGION}" \
+            --zone asia-south1-c \
             --project "${GCP_PROJECT_ID}"
 
       - name: Install or upgrade KubeRay operator
@@ -93,16 +106,23 @@ jobs:
           helm repo update
           helm upgrade --install kuberay-operator kuberay/kuberay-operator \
             --namespace ray-system \
-            --create-namespace
+            --create-namespace \
+            --version 1.6.0
 
       - name: Apply Kubernetes base manifests
         run: |
           kubectl apply -f k8s/namespace-ray.yaml
           kubectl apply -f k8s/serviceaccounts.yaml
-          kubectl apply -f k8s/secret-llm.yaml
           kubectl apply -f k8s/networkpolicy.yaml
 
-      - name: Deploy RayJob with latest image
+      - name: Create LLM secret if not exists
         run: |
-          sed "s|REGION-docker.pkg.dev/YOUR_PROJECT_ID/ray-repo/ray-pipeline:latest|${IMAGE}|g" \
-            k8s/ray-job.yaml | kubectl apply -f -
+          kubectl create secret generic llm-api-secret-v2 \
+            --from-literal=LLM_API_KEY=${{ secrets.LLM_API_KEY }} \
+            --namespace ray \
+            --dry-run=client -o yaml | kubectl apply -f -
+
+      - name: Deploy RayJob
+        run: |
+          kubectl delete rayjob ray-pipeline-job-v2 -n ray --ignore-not-found
+          kubectl apply -f k8s/ray-job.yaml

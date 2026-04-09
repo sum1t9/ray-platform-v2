@@ -143,6 +143,10 @@ resource "google_storage_bucket" "data_bucket" {
   location                    = var.region
   force_destroy               = true
   uniform_bucket_level_access = true
+
+  lifecycle {
+    prevent_destroy = true
+  }
 }
 
 resource "google_artifact_registry_repository" "ray_repo" {
@@ -171,7 +175,7 @@ resource "google_project_iam_member" "ray_worker_storage" {
 
 resource "google_project_iam_member" "ray_head_storage" {
   project = var.project_id
-  role    = "roles/storage.objectViewer"
+  role    = "roles/storage.objectAdmin"
   member  = "serviceAccount:${google_service_account.ray_head.email}"
 }
 
@@ -204,4 +208,13 @@ resource "google_storage_bucket_object" "financial" {
   bucket       = google_storage_bucket.data_bucket.name
   source       = "${path.module}/data/Financial_Data_S2.csv"
   content_type = "text/csv"
+}
+
+# Allow GKE nodes to pull images from Artifact Registry
+data "google_project" "project" {}
+
+resource "google_project_iam_member" "node_ar_reader" {
+  project = var.project_id
+  role    = "roles/artifactregistry.reader"
+  member  = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
 }
