@@ -26,7 +26,11 @@ resource "google_compute_subnetwork" "subnet" {
 
 resource "google_container_cluster" "primary" {
   name     = var.cluster_name
-  location = var.region
+
+  # KEY FIX 1: zonal cluster instead of regional
+  # Regional = 3 nodes per pool (1 per zone) = 3x IP usage
+  # Zonal = 1 node per pool = fits inside your quota of 4 IPs
+  location = "asia-south1-c"
 
   network    = google_compute_network.vpc.name
   subnetwork = google_compute_subnetwork.subnet.name
@@ -51,14 +55,23 @@ resource "google_container_cluster" "primary" {
 }
 
 resource "google_container_node_pool" "system_pool" {
-  name     = "system-pool-v2"
-  location = var.region
+  name    = "system-pool-v2"
+  # KEY FIX 2: match cluster zone, not region
+  location = "asia-south1-c"
   cluster  = google_container_cluster.primary.name
 
-  node_count = 1
+  # KEY FIX 3: fixed node_count, no autoscaling on system pool
+  # avoids GKE creating extra replacement nodes during updates
+  node_count = 2
+
+  management {
+    auto_repair  = true
+    auto_upgrade = true
+  }
 
   node_config {
-    machine_type = "n2-standard-2"
+    # KEY FIX 4: e2-medium for system pool - stable, low cost, fits quota
+    machine_type = "e2-medium"
     disk_type    = "pd-standard"
     disk_size_gb = 50
 
@@ -70,15 +83,18 @@ resource "google_container_node_pool" "system_pool" {
     workload_metadata_config {
       mode = "GKE_METADATA"
     }
+
+    oauth_scopes = [
+      "https://www.googleapis.com/auth/cloud-platform"
+    ]
   }
 }
 
 resource "google_container_node_pool" "worker_pool" {
   name     = "worker-pool-v2"
-  location = var.region
+  # KEY FIX 5: match cluster zone
+  location = "asia-south1-c"
   cluster  = google_container_cluster.primary.name
-
-  node_count = 1
 
   management {
     auto_repair  = true
@@ -86,6 +102,7 @@ resource "google_container_node_pool" "worker_pool" {
   }
 
   node_config {
+    # n2-standard-2 stays on worker pool - this is what your pipeline needs
     machine_type = "n2-standard-2"
     preemptible  = true
     disk_type    = "pd-standard"
@@ -105,6 +122,10 @@ resource "google_container_node_pool" "worker_pool" {
     workload_metadata_config {
       mode = "GKE_METADATA"
     }
+
+    oauth_scopes = [
+      "https://www.googleapis.com/auth/cloud-platform"
+    ]
   }
 
   autoscaling {
@@ -170,16 +191,17 @@ resource "google_service_account_iam_member" "ray_head_wi_binding" {
 # Seed input datasets in GCS
 #######################
 
+# KEY FIX 6: use path.module to resolve CSV paths correctly
 resource "google_storage_bucket_object" "supplychain" {
-  name         = "supplychain.csv"
+  name         = "data/SupplyChain_Data_S1.csv"
   bucket       = google_storage_bucket.data_bucket.name
-  source       = "${path.module}/data/supplychain.csv"
+  source       = "${path.module}/data/SupplyChain_Data_S1.csv"
   content_type = "text/csv"
 }
 
 resource "google_storage_bucket_object" "financial" {
-  name         = "financial.csv"
+  name         = "data/Financial_Data_S2.csv"
   bucket       = google_storage_bucket.data_bucket.name
-  source       = "${path.module}/data/financial.csv"
+  source       = "${path.module}/data/Financial_Data_S2.csv"
   content_type = "text/csv"
 }

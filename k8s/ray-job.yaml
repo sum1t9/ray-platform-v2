@@ -21,14 +21,14 @@ spec:
         node-role: system
       containers:
         - name: ray-job-submitter
-          image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
+          image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2:latest"
           resources:
             requests:
               cpu: "100m"
-              memory: "100Mi"
+              memory: "128Mi"
             limits:
-              cpu: "200m"
-              memory: "200Mi"
+              cpu: "250m"
+              memory: "256Mi"
 
   rayClusterSpec:
     rayVersion: "2.9.0"
@@ -44,7 +44,7 @@ spec:
             node-role: system
           containers:
             - name: ray-head
-              image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
+              image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2:latest"
               env:
                 - name: SUPPLYCHAIN_DATA_S1_PATH
                   value: "gs://ray-platform-v2-ray2-data-bucket/data/SupplyChain_Data_S1.csv"
@@ -59,16 +59,16 @@ spec:
                   value: "100000000"
               resources:
                 requests:
-                  cpu: "200m"
-                  memory: "512Mi"
+                  cpu: "100m"
+                  memory: "256Mi"
                 limits:
-                  cpu: "1"
-                  memory: "2Gi"
+                  cpu: "500m"
+                  memory: "1Gi"
 
     workerGroupSpecs:
       - groupName: workers
         replicas: 1
-        minReplicas: 0
+        minReplicas: 1
         maxReplicas: 5
         rayStartParams:
           num-cpus: "1"
@@ -86,7 +86,7 @@ spec:
                 effect: "NoSchedule"
             containers:
               - name: ray-worker
-                image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2@sha256:d64f08a2ae17de3bba2f12c14d07be58f23d67c85ba50b73579553a3d31b264c"
+                image: "asia-south1-docker.pkg.dev/ray-platform-v2/ray-repo-v2/ray-pipeline-v2:latest"
                 env:
                   - name: SUPPLYCHAIN_DATA_S1_PATH
                     value: "gs://ray-platform-v2-ray2-data-bucket/data/SupplyChain_Data_S1.csv"
